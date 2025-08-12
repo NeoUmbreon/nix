@@ -133,6 +133,7 @@
 
       # KDE Packages
       kdePackages.discover # Optional: Install if you use Flatpak or fwupd firmware update sevice
+      kdePackages.markdownpart
       kdePackages.kcalc # Calculator
       kdePackages.kcharselect # Tool to select and copy special characters from all installed fonts
       kdePackages.kcolorchooser # A small utility to select a color
