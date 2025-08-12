@@ -12,8 +12,8 @@ mv nix flakes
 
 nix-prefetch-url --type sha256 file:///home/dawn/flakes/nixos/overlays/VMware-Workstation-Full-17.6.3-24583834.x86_64.bundle
 
-nixos-rebuild switch --flake /home/dawn/flakes/nixos
-
+sudo nixos-rebuild switch --flake /home/dawn/flakes/nixos
+<br/>
 
 home-manager configuration:
 
@@ -24,9 +24,12 @@ nyx-rebuild --update
 nyx-rebuild --flake ~/flakes/nixos
 
 nyx-rebuild
-
+<br/>
 
 for other flakes:
+
 nix develop
+
 nix build
+
 nix run
