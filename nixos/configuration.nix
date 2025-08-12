@@ -248,6 +248,7 @@
   ];
 
   nix.settings.experimental-features = [ "nix-command" "flakes" ];
+  nix.settings.auto-optimise-store = true;
 
   fonts.enableDefaultPackages = true;
   fonts.packages = with pkgs; [
