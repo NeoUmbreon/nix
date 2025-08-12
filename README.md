@@ -4,9 +4,7 @@ main nixos configuration:
 
 nix-shell -p git
 
-git clone https://github.com/NeoUmbreon/nix
-
-mv nix flakes
+git clone https://github.com/NeoUmbreon/nix flakes
 
 (Download VMWare workstation .bundle and put in overlays folder)
 
