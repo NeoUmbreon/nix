@@ -113,7 +113,7 @@
       gcc
       kdePackages.kate
       #nil
-      #marksman
+      marksman
       kdePackages.markdownpart
       #sfml_2
 
