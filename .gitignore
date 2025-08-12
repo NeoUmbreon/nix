@@ -4,4 +4,5 @@ pokeprismv-flake/pokeprismv
 pokeprismv-flake/result
 polished-map-flake/result
 xx3dsfml/result
+*.bak
 
