@@ -10,9 +10,7 @@
       ./hardware-configuration.nix
     ];
 
-  nixpkgs.overlays = [
-    (import ./overlays/vmware-bundle.nix)
-  ];
+
 
   # Bootloader.
   boot.loader.systemd-boot.enable = true;
@@ -174,6 +172,10 @@
 
     ];
   };
+  nixpkgs.overlays = [
+    (import ./overlays/vmware-bundle.nix)
+  ];
+  virtualisation.vmware.host.enable = true;
 
   # OBS Studio with plugins
   programs.obs-studio = {
@@ -245,8 +247,6 @@
     wget
   ];
 
-  virtualisation.vmware.host.enable = true;
-
   nix.settings.experimental-features = [ "nix-command" "flakes" ];
 
   fonts.enableDefaultPackages = true;
@@ -275,9 +275,6 @@
   # networking.firewall.allowedUDPPorts = [ ... ];
   # Or disable the firewall altogether.
   # networking.firewall.enable = false;
-
-
-
 
   # This value determines the NixOS release from which the default
   # settings for stateful data, like file locations and database versions
