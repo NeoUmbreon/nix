@@ -34,7 +34,8 @@
   networking.networkmanager.enable = true;
 
   # Set your time zone.
-  time.timeZone = "America/New_York";
+  #time.timeZone = "America/New_York";
+  time.timeZone = "Europe/London";
 
   # Select internationalisation properties.
   i18n.defaultLocale = "en_US.UTF-8";
@@ -67,7 +68,19 @@
   };
 
   # Enable CUPS to print documents.
-  services.printing.enable = true;
+  services.avahi = {
+    enable = true;
+    nssmdns4 = true;
+    openFirewall = true;
+  };
+
+  services.printing = {
+    enable = true;
+    drivers = with pkgs; [
+      cups-filters
+      cups-browsed
+    ];
+  };
 
   # Enable sound with pipewire.
   services.pulseaudio.enable = false;
@@ -101,7 +114,8 @@
       neovim
       gcc
       kdePackages.kate
-      nil
+      #nil
+      #sfml_2
 
       # Gaming
       protonplus
@@ -130,6 +144,7 @@
       kdiff3 # Compares and merges 2 or 3 files or directories
       kdePackages.partitionmanager # Optional Manage the disk devices, partitions and file systems on your computer
       hardinfo2 # System information and benchmarks for Linux systems
+      #kdePackages.kmix
 
       wayland-utils # Wayland utilities
       wl-clipboard # Command-line copy/paste utilities for Wayland
@@ -142,16 +157,20 @@
       discord
       vscode
       github-desktop
-
+      element-desktop
+      parabolic
+      google-chrome
+      #putty
 
       # Office
       thunderbird
       nextcloud-client
-
+      zoom-us
 
       # VMWare
       vmfs-tools
       open-vm-tools
+      vmware-workstation
 
     ];
   };
@@ -236,6 +255,7 @@
     nerd-fonts.fira-code
     nerd-fonts.hack
   ];
+
 
   # Some programs need SUID wrappers, can be configured further or are
   # started in user sessions.
