@@ -72,7 +72,10 @@
           pname = "pokeprism";
           version = "nightly";
 
-          src = ./pokeprismv;
+          src = builtins.path {
+            path = /home/dawn/flakes/pokeprismv-flake/pokeprismv;
+            name = "pokeprismv";
+          };
 
           buildInputs = nativeBuildInputs ++ [ rgbds ];
 
@@ -93,19 +96,19 @@
             name = "pokeprism-emulator";
             runtimeInputs = [ pkgs.wineWowPackages.stable ];
             text = ''
-              export WINEPREFIX=$HOME/.wine64
+              export WINEPREFIX="$HOME/.wine64"
               export WINEARCH=win64
 
               if [ ! -d "$WINEPREFIX" ]; then
                 echo "Initializing 64-bit Wine prefix at $WINEPREFIX..."
-                wineboot
+                wine64 wineboot
               fi
+
               cd /home/dawn/flakes/pokeprismv-flake/bgbw64
-              wine64 bgb64.exe pokeprism.gbc -watch
+              exec wine64 bgb64.exe pokeprism.gbc -watch
             '';
           };
         };
-
       });
 }
 
