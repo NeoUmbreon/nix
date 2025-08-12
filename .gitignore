@@ -8,4 +8,4 @@ flake.nix.bak
 *.bak
 nixos/overlays/VMware-Workstation-Full-17.6.3-24583834.x86_64.bundle
 .git.bfg-report/
-
+*.kate-swp
