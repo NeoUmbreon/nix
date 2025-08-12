@@ -1,33 +1,66 @@
 # My NixOS Config
 
-main nixos configuration:
+### main nixos configuration:
 
-nix-shell -p git
+`sudo nixos-rebuild switch --upgrade`
 
-git clone https://github.com/NeoUmbreon/nix flakes
+`nix-shell -p git home-manager`
 
-(Download VMWare workstation .bundle and put in overlays folder)
+`git clone https://github.com/NeoUmbreon/nix flakes`
 
-nix-prefetch-url --type sha256 file:///home/dawn/flakes/nixos/overlays/VMware-Workstation-Full-17.6.3-24583834.x86_64.bundle
+`sudo cp /etc/nixos/hardware-configuration.nix ~/flakes/nixos/hardware-configuration.nix`
 
-sudo nixos-rebuild switch --flake /home/dawn/flakes/nixos
+Ensure that you are using systemd-boot in your existing /etc/nixos/configuration.nix:
+
+boot.loader.systemd-boot.enable = true;
+
+boot.loader.efi.canTouchEfiVariables = true;
+
+
+If not, edit ~/flakes/nixos/configuration.nix to use (assumedly) GRUB:
+
+boot.loader.grub.enable = true;
+
+boot.loader.grub.device = "/dev/sda";
+
+boot.loader.grub.useOSProber = true;
+
+> Download VMWare workstation .bundle and put in overlays folder:
+
+`cp ~/Downloads/VMware-Workstation-Full-17.6.3-24583834.x86_64.bundle ~/flakes/nixos/overlays/VMware-Workstation-Full-17.6.3-24583834.x86_64.bundle`
+
+`nix-prefetch-url --type sha256 file:///home/dawn/flakes/nixos/overlays/VMware-Workstation-Full-17.6.3-24583834.x86_64.bundle`
+
 <br/>
 
-home-manager configuration:
+## There are 3 options to install the config. 
+## Only necessary to do ONE of these.
 
-home-manager switch --flake ~/flakes/home-manager#dawn
+### 1. (easiest) use only configuration.nix
+`sudo cp /etc/nixos/configuration.nix /etc/nixos/configuration.nix.bak && sudo rm /etc/nixos/configuration.nix`
 
-nyx-rebuild --update 
+`sudo ln -s ~/flakes/nixos/configuration.nix /etc/nixos/configuration.nix`
 
-nyx-rebuild --flake ~/flakes/nixos
+`sudo nixos-rebuild switch`
 
-nyx-rebuild
+### 2. rebuild from flake
+`sudo nixos-rebuild switch --flake /home/dawn/flakes/nixos`
+
+### 3. (best) home-manager + nyx
+`home-manager switch --flake ~/flakes/home-manager#dawn --extra-experimental-features nix-command --extra-experimental-features flakes`
+
+`nyx-rebuild`
+
+Refer to here for nyx commands:
+
+https://github.com/Peritia-System/Nyx-Tools?tab=readme-ov-file#usage
+
 <br/>
 
-for other flakes:
+### for other flakes:
 
-nix develop
+`nix develop`
 
-nix build
+`nix build`
 
-nix run
+`nix run`
