@@ -59,8 +59,11 @@ https://github.com/Peritia-System/Nyx-Tools?tab=readme-ov-file#usage
 
 ### for other flakes:
 These commands work in all of them, but recommended procedure below
+
 `nix develop`
+
 `nix build`
+
 `nix run`
 
 ### pokeprismv-flake
@@ -70,6 +73,7 @@ pokeprismv folder necessary, not provided
 
 ### polished-map-flake
 `nix build`
+
 Now you can create a .desktop file for the resulting binary (/home/dawn/flakes/polished-map-flake/result/bin/polishedmap-plusplus) in ~/.local/share/applications/, for example:
 (wip)
 
