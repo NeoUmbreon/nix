@@ -62,7 +62,22 @@
     enable = true;
     shellAliases = {
       vim = "nvim";
+      sshp = "ssh -p 8253 neo@neoumbreon.com";
+      sudo = "sudo ";
+      hm = "home-manager switch --flake ~/flakes/home-manager#dawn";
     };
+    initExtra = ''
+    vbuild() {
+      cd ~/flakes/pokeprismv-flake/ || return 1
+
+      nix develop --command bash -c '
+        echo "Entered nix shell temporarily. Building..."
+        nix build --impure || exit 1
+        cp result/pokeprism.gbc bgbw64/pokeprism.gbc || exit 1
+        echo "Build and copy completed!"
+      '
+    }
+    '';
     bashrcExtra = ''
     '';
     sessionVariables = {

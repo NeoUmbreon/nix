@@ -261,7 +261,7 @@
   nixpkgs.config.allowUnfree = true;
 
   # Bash prompt gitstatus
-  programs.bash.promptInit = "source $(gitstatus-share)/gitstatus.prompt.sh";
+  #programs.bash.promptInit = "source $(gitstatus-share)/gitstatus.prompt.sh";
 
   # List packages installed in system profile. To search, run:
   # $ nix search wget
