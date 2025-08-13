@@ -58,6 +58,44 @@
       };
   };
 
+  programs.starship = {
+    enable = true;
+    settings = {
+      add_newline = false;
+      command_timeout = 500;
+
+      format = "$git_branch$git_commit$git_status$git_state$git_metrics\\[$username@nixos:$directory\\]\\$ ";
+
+      right_format = "";
+      scan_timeout = 30;
+
+      directory = {
+        disabled = false;
+        fish_style_pwd_dir_length = 0; # show full path
+        format = "$path$read_only";
+        home_symbol = "~";
+        truncate_to_repo = false;
+        use_logical_path = true;
+        use_os_path_sep = true;
+      };
+
+      username = { format = "$user"; show_always = true; disabled = false; };
+      hostname = { format = "$hostname"; disabled = false; };
+
+    
+git_branch = { format = " $branch "; };
+git_commit = { commit_hash_length = 7; format = " $hash "; only_detached = true; };
+git_metrics = { format = "( +$added  -$deleted) "; only_nonzero_diffs = true; };
+git_status = {
+  ahead = " $count";       # up arrow for ahead
+  behind = " $count";      # down arrow for behind
+  modified = " ";           # pencil for modified
+  staged = " ";             # checkmark for staged
+};
+git_state = { format = "$state"; };
+    };
+  };
+
   programs.bash = {
     enable = true;
     shellAliases = {
@@ -77,14 +115,32 @@
         echo "Build and copy completed!"
       '
     }
+    if [ -f ~/.bash_aliases ]; then
+    . ~/.bash_aliases
+    fi
+
+    # Start ssh agent automatically
+    if [ -z "$SSH_AUTH_SOCK" ]; then
+      eval "$(ssh-agent -s)" > /dev/null 2>&1
+    fi
+
+    # Check if the keys are already added, and add them only if they aren't
+    if ! ssh-add -l | grep -q "dawn"; then
+      ssh-add ~/.ssh/id_rsa_dawn > /dev/null 2>&1
+    fi
+
+    if ! ssh-add -l | grep -q "neo"; then
+      ssh-add ~/.ssh/id_rsa_neo > /dev/null 2>&1
+    fi
+
     '';
     bashrcExtra = ''
     '';
     sessionVariables = {
       HOME_MANAGER_FLAKE = "/home/dawn/flakes/home-manager#dawn";
-      HISTSIZE = "1000000";
-      HISTFILESIZE = "2000000";
     };
+    historySize = 1000000;
+    historyFileSize = 2000000;
   };
 
   # The home.packages option allows you to install Nix packages into your
