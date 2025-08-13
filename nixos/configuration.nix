@@ -127,6 +127,9 @@
       kdePackages.markdownpart
       #sfml_2
 
+      # Bash prompt
+      gitstatus
+
       # Gaming
       protonplus
       joystickwake
