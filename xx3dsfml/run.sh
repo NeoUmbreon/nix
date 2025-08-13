@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 
 # How long to keep HDMI as default
-DELAY=2
+DELAY=10
 
 # --- Get current default sink name ---
 current_sink_name=$(pactl info | awk -F': ' '/Default Sink/ {print $2}')

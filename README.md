@@ -94,3 +94,5 @@ Type=Application
 ```
 ### xx3dsfml
 `nix build`
+Now you can create a .desktop file for the resulting binary (/home/dawn/flakes/polished-map-flake/result/bin/polishedmap-plusplus) in ~/.local/share/applications/, for example:
+
