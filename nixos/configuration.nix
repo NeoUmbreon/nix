@@ -128,7 +128,7 @@
       #sfml_2
 
       # Bash prompt
-      gitstatus
+      #gitstatus
 
       # LazyVim (this doesn't work)
       #vimPlugins.LazyVim
