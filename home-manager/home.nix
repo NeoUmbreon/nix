@@ -58,6 +58,16 @@
       };
   };
 
+  programs.bash = {
+    enable = true;
+    shellAliases = {
+      
+    };
+    sessionVariables = {
+      PS1='\w ${GITSTATUS_PROMPT}\n\$ '
+    };
+  };
+
   # The home.packages option allows you to install Nix packages into your
   # environment.
   home.packages = [

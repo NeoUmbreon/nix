@@ -130,6 +130,9 @@
       # Bash prompt
       gitstatus
 
+      # LazyVim
+      vimPlugins.LazyVim
+
       # Gaming
       protonplus
       joystickwake
