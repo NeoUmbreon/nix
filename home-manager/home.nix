@@ -61,10 +61,14 @@
   programs.bash = {
     enable = true;
     shellAliases = {
-      
+      vim = "nvim";
     };
+    bashrcExtra = ''
+    '';
     sessionVariables = {
-      PS1='\w ${GITSTATUS_PROMPT}\n\$ '
+      HOME_MANAGER_FLAKE = "/home/dawn/flakes/home-manager#dawn";
+      HISTSIZE = "1000000";
+      HISTFILESIZE = "2000000";
     };
   };
 
