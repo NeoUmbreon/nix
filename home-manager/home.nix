@@ -39,7 +39,6 @@
         window-maximized = true;
         volume = 50;
         volume-max = 300;
-        keep-open-always = true;
       };
   };
 
