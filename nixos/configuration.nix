@@ -10,6 +10,9 @@
       ./hardware-configuration.nix
     ];
 
+  services.udev.extraRules = ''
+    SUBSYSTEM=="usb", ATTRS{idVendor}=="0403", ATTRS{idProduct}=="601e", MODE="0666"
+  '';
 
 
   # Bootloader.

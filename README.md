@@ -68,7 +68,9 @@ These commands work in all of them, but recommended procedure below
 
 ### pokeprismv-flake
 pokeprismv folder necessary, not provided
+
 `nix develop`
+
 `nix build`
 
 ### polished-map-flake
