@@ -94,7 +94,7 @@
     # If you want to use JACK applications, uncomment this
     #jack.enable = true;
 
-    wireplumber.enable = true;
+    #wireplumber.enable = true;
   };
 
   # Enable touchpad support (enabled default in most desktopManager).
@@ -130,6 +130,8 @@
       alsa-scarlett-gui
       pwvucontrol
       kdePackages.kdenlive
+      #qpwgraph
+      #pavucontrol
 
       # Graphics and Display
       nwg-look
@@ -162,8 +164,6 @@
       parabolic
       google-chrome
       #putty
-      qpwgraph
-      pavucontrol
 
       # Office
       thunderbird
