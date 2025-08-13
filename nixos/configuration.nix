@@ -24,6 +24,8 @@
   # Using LTS kernel for VMWare
   boot.kernelPackages = pkgs.linuxPackages_6_12;
 
+  boot.kernelModules = [ "v4l2loopback" ];
+
   networking.hostName = "nixos"; # Define your hostname.
   # networking.wireless.enable = true;  # Enables wireless support via wpa_supplicant.
 
