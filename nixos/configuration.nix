@@ -130,8 +130,8 @@
       # Bash prompt
       gitstatus
 
-      # LazyVim
-      vimPlugins.LazyVim
+      # LazyVim (this doesn't work)
+      #vimPlugins.LazyVim
 
       # Gaming
       protonplus
