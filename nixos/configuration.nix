@@ -131,6 +131,7 @@
       gnomeExtensions.easyeffects-preset-selector
       alsa-scarlett-gui
       pwvucontrol
+      kdePackages.kdenlive
 
       # Graphics and Display
       nwg-look
