@@ -11,8 +11,7 @@
     ];
 
   services.udev.extraRules = ''
-    SUBSYSTEM=="usb", ATTRS{idVendor}=="0403", ATTRS{idProduct}=="601e",
-    OWNER="dawn", MODE="0600"
+    SUBSYSTEM=="usb", ATTRS{idVendor}=="0403", ATTRS{idProduct}=="601e", OWNER="dawn", MODE="0600"
   '';
 
 
