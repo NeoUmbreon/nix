@@ -82,17 +82,11 @@
       username = { format = "$user"; show_always = true; disabled = false; };
       hostname = { format = "$hostname"; disabled = false; };
 
-    
-git_branch = { format = " $branch "; };
-git_commit = { commit_hash_length = 7; format = " $hash "; only_detached = true; };
-git_metrics = { format = "( +$added  -$deleted) "; only_nonzero_diffs = true; };
-git_status = {
-  ahead = " $count";       # up arrow for ahead
-  behind = " $count";      # down arrow for behind
-  modified = " ";           # pencil for modified
-  staged = " ";             # checkmark for staged
-};
-git_state = { format = "$state"; };
+      git_branch = { format = " $branch "; };
+      git_commit = { commit_hash_length = 7; format = "$hash "; only_detached = true; };
+      git_metrics = { format = "($added +$added$deleted -$deleted) "; only_nonzero_diffs = true; };
+      git_status = { ahead = "$count ahead "; behind = "$count behind "; modified = "modified "; staged = "staged "; };
+      git_state = { format = "$state"; };
     };
   };
 
