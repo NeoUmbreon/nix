@@ -33,6 +33,16 @@
     nyx-tui.enable     = true;
   };
 
+  programs.mpv {
+    enable = true;
+    config {
+        window-maximized = true;
+        volume = 50;
+        volume-max = 300;
+        keep-open-always = true;
+      };
+  };
+
   # The home.packages option allows you to install Nix packages into your
   # environment.
   home.packages = [

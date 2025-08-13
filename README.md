@@ -77,7 +77,20 @@ pokeprismv folder necessary, not provided
 `nix build`
 
 Now you can create a .desktop file for the resulting binary (/home/dawn/flakes/polished-map-flake/result/bin/polishedmap-plusplus) in ~/.local/share/applications/, for example:
-(wip)
-
+```
+[dawn@nixos:~/.local/share/applications]$ cat polished-map.desktop 
+[Desktop Entry]
+Categories=Development;Utility;
+Comment=
+Exec=nix run '/home/dawn/flakes/polished-map-flake/'
+Icon=/home/dawn/flakes/polished-map-flake/polished-map.png
+Name=Polished Map++
+NoDisplay=false
+Path=/home/dawn/flakes/pokeprismv-flake/pokeprismv/
+StartupNotify=true
+Terminal=false
+Type=Application
+[dawn@nixos:~/.local/share/applications]$ 
+```
 ### xx3dsfml
 `nix build`

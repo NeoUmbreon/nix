@@ -1,0 +1,12 @@
+[Desktop Entry]
+Categories=Game;Multimedia;
+Comment=
+Exec=/home/dawn/flakes/xx3dsfml/run.sh
+Icon=
+Name=xx3dsfml
+NoDisplay=false
+Path=
+StartupNotify=true
+Terminal=false
+Type=Application
+

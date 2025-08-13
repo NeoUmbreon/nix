@@ -1,0 +1,15 @@
+[Desktop Entry]
+Categories=Game;Emulator;
+Comment=
+Exec=nix run '/home/dawn/flakes/pokeprismv-flake#pokeprism-emulator'
+Icon=/home/dawn/flakes/pokeprismv-flake/bgbw64/icon.png
+Name=BGB Emulator
+NoDisplay=false
+Path=
+StartupNotify=true
+Terminal=false
+TerminalOptions=--noclose
+Type=Application
+Version=1.0
+X-KDE-SubstituteUID=false
+X-KDE-Username=
