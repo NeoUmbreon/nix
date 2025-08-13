@@ -162,6 +162,7 @@
       parabolic
       google-chrome
       #putty
+      qpwgraph
 
       # Office
       thunderbird
