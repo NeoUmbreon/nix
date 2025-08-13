@@ -186,9 +186,9 @@
 
     ];
   };
-  nixpkgs.overlays = [
-    (import ./overlays/vmware-bundle.nix)
-  ];
+  #nixpkgs.overlays = [
+  #  (import ./overlays/vmware-bundle.nix)
+  #];
   virtualisation.vmware.host.enable = true;
 
   # OBS Studio with plugins
