@@ -33,9 +33,9 @@
     nyx-tui.enable     = true;
   };
 
-  programs.mpv {
+  programs.mpv = {
     enable = true;
-    config {
+    config = {
         window-maximized = true;
         volume = 50;
         volume-max = 300;

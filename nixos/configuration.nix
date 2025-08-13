@@ -131,7 +131,6 @@
       gnomeExtensions.easyeffects-preset-selector
       alsa-scarlett-gui
       pwvucontrol
-      mpv
 
       # Graphics and Display
       nwg-look
