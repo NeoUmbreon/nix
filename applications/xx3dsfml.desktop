@@ -1,7 +1,7 @@
 [Desktop Entry]
 Categories=Game;Multimedia;
 Comment=
-Exec=/home/dawn/flakes/xx3dsfml/run.sh
+Exec=nix run '/home/dawn/flakes/xx3dsfml/'
 Icon=
 Name=xx3dsfml
 NoDisplay=false
