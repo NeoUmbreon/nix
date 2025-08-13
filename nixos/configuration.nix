@@ -163,6 +163,7 @@
       google-chrome
       #putty
       qpwgraph
+      pavucontrol
 
       # Office
       thunderbird
