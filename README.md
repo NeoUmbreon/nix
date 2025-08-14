@@ -9,6 +9,13 @@
 `git clone https://github.com/NeoUmbreon/nix flakes`
 
 `sudo cp /etc/nixos/hardware-configuration.nix ~/flakes/nixos/hardware-configuration.nix`
+
+Download VMWare workstation .bundle and put in overlays folder:
+
+cp ~/Downloads/VMware-Workstation-Full-17.6.3-24583834.x86_64.bundle ~/flakes/nixos/overlays/VMware-Workstation-Full-17.6.3-24583834.x86_64.bundle
+
+nix-prefetch-url --type sha256 file:///home/dawn/flakes/nixos/overlays/VMware-Workstation-Full-17.6.3-24583834.x86_64.bundle
+
 <br/>
 
 ## There are 2 options to install the config. 
@@ -22,19 +29,21 @@
 `sudo nixos-rebuild switch`
 
 Add home-manager if you want after:
+
 `home-manager switch --flake ~/flakes/home-manager#dawn --extra-experimental-features nix-command --extra-experimental-features flakes`
 
 ### 2. (best) rebuild from flake
 `sudo nixos-rebuild switch --flake /home/dawn/flakes/nixos`
 
-Add home-manager + nyx
+Add home-manager
+
 `home-manager switch --flake ~/flakes/home-manager#dawn --extra-experimental-features nix-command --extra-experimental-features flakes`
 
-`nyx-rebuild`
+Now you can use:
 
-Refer to here for nyx commands:
+`nr` rebuilds main config with nyx
 
-https://github.com/Peritia-System/Nyx-Tools?tab=readme-ov-file#usage
+`hm` rebuilds home-manager config
 
 <br/>
 
@@ -73,8 +82,9 @@ Terminal=false
 Type=Application
 [dawn@nixos:~/.local/share/applications]$ 
 ```
+
 ### xx3dsfml
 `nix build`
-Now you can create a .desktop file for the resulting binary (/home/dawn/flakes/polished-map-flake/result/bin/polishedmap-plusplus) in ~/.local/share/applications/, for example:
 
-
+(wip)
+(Now you can create a .desktop file for the resulting binary (/home/dawn/flakes/polished-map-flake/result/bin/polishedmap-plusplus) in ~/.local/share/applications/, for example:
