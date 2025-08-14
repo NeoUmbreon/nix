@@ -186,16 +186,16 @@
       zoom-us
 
       # VMWare
-      #vmfs-tools
-      #open-vm-tools
-      #vmware-workstation
+      vmfs-tools
+      open-vm-tools
+      vmware-workstation
 
     ];
   };
-  #nixpkgs.overlays = [
-  #  (import ./overlays/vmware-bundle.nix)
-  #];
-  #virtualisation.vmware.host.enable = true;
+  nixpkgs.overlays = [
+    (import ./overlays/vmware-bundle.nix)
+  ];
+  virtualisation.vmware.host.enable = true;
 
   # OBS Studio with plugins
   programs.obs-studio = {
