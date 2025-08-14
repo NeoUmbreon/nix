@@ -113,7 +113,7 @@
   users.users.dawn = {
     isNormalUser = true;
     description = "dawn";
-    extraGroups = [ "networkmanager" "wheel" ];
+    extraGroups = [ "networkmanager" "wheel" "libvirtd"];
     packages = with pkgs; [
       # core system packages
       wine
@@ -186,16 +186,27 @@
       zoom-us
 
       # VMWare
-      vmfs-tools
-      open-vm-tools
-      vmware-workstation
+      #vmfs-tools
+      #open-vm-tools
+      #vmware-workstation
 
     ];
   };
-  nixpkgs.overlays = [
-    (import ./overlays/vmware-bundle.nix)
-  ];
-  virtualisation.vmware.host.enable = true;
+  # More VMWare, requires manual updates (which SUCKS)
+  #nixpkgs.overlays = [
+  #  (import ./overlays/vmware-bundle.nix)
+  #];
+  #virtualisation.vmware.host.enable = true;
+  
+  # QEMU/KVM
+  programs.virt-manager.enable = true;
+
+  users.groups.libvirtd.members = ["dawn"];
+
+  virtualisation.libvirtd.enable = true;
+
+  virtualisation.spiceUSBRedirection.enable = true;
+
 
   # OBS Studio with plugins
   programs.obs-studio = {
