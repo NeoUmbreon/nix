@@ -64,7 +64,7 @@
       add_newline = false;
       command_timeout = 500;
 
-      format = "$git_branch$git_commit$git_status$git_state$git_metrics\\[$username@nixos:$directory\\]\\$ ";
+      format = "[$git_branch$git_commit$git_status$git_state$git_metrics\\[$username@nixos:$directory\\]\\$ ](bold fg:green)";
 
       right_format = "";
       scan_timeout = 30;
@@ -83,9 +83,9 @@
       hostname = { format = "$hostname"; disabled = false; };
 
       git_branch = { format = " $branch "; };
-      git_commit = { commit_hash_length = 7; format = "$hash "; only_detached = true; };
+      git_commit = { commit_hash_length = 7; format = "$hash;"; only_detached = true; };
       git_metrics = { format = "($added +$added$deleted -$deleted) "; only_nonzero_diffs = true; };
-      git_status = { ahead = "$count ahead "; behind = "$count behind "; modified = "modified "; staged = "staged "; };
+      git_status = { ahead = "$count ahead;"; behind = "$count behind;"; modified = "modified;"; staged = "staged;"; };
       git_state = { format = "$state"; };
     };
   };
