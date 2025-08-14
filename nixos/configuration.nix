@@ -172,7 +172,7 @@
       fsearch
       xed-editor
       qdirstat
-      discord
+      #discord
       vscode
       github-desktop
       element-desktop
