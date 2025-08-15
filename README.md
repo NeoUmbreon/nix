@@ -3,7 +3,7 @@
 ### main nixos configuration:
 
 ```
-sudo nixos-rebuild switch --
+sudo nixos-rebuild switch --upgrade
 ```
 
 ```
