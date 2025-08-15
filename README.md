@@ -10,12 +10,6 @@
 
 `sudo cp /etc/nixos/hardware-configuration.nix ~/flakes/nixos/hardware-configuration.nix`
 
-Download VMWare workstation .bundle and put in overlays folder:
-
-cp ~/Downloads/VMware-Workstation-Full-17.6.3-24583834.x86_64.bundle ~/flakes/nixos/overlays/VMware-Workstation-Full-17.6.3-24583834.x86_64.bundle
-
-nix-prefetch-url --type sha256 file:///home/dawn/flakes/nixos/overlays/VMware-Workstation-Full-17.6.3-24583834.x86_64.bundle
-
 <br/>
 
 ## There are 2 options to install the config. 

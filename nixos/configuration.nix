@@ -23,8 +23,6 @@
 
   # Use latest kernel.
   boot.kernelPackages = pkgs.linuxPackages_latest;
-  # Using LTS kernel for VMWare
-  #boot.kernelPackages = pkgs.linuxPackages_6_12;
 
   #boot.kernelModules = [ "v4l2loopback" ];
   #boot.extraModulePackages = with config.boot.kernelPackages; [ v4l2loopback ];
@@ -184,20 +182,9 @@
       thunderbird
       nextcloud-client
       zoom-us
-
-      # VMWare
-      #vmfs-tools
-      #open-vm-tools
-      #vmware-workstation
-
     ];
   };
-  # More VMWare, requires manual updates (which SUCKS)
-  #nixpkgs.overlays = [
-  #  (import ./overlays/vmware-bundle.nix)
-  #];
-  #virtualisation.vmware.host.enable = true;
-  
+
   # QEMU/KVM
   programs.virt-manager.enable = true;
 
