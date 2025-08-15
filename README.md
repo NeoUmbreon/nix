@@ -20,8 +20,7 @@ sudo cp /etc/nixos/hardware-configuration.nix ~/flakes/nixos/hardware-configurat
 
 <br/>
 
-## There are 2 options to install the config. 
-## Only necessary to do ONE of these.
+## There are 2 options to install the config. Only necessary to do ONE of these.
 
 ### 1. (best) rebuild from flake
 ```
@@ -42,8 +41,9 @@ Now you can use:
 
 <details>
 <summary>
-### 2. (easiest) use /etc/nixos/configuration.nix
+2. (easiest) use /etc/nixos/configuration.nix
 </summary>
+
 ```
 sudo cp /etc/nixos/configuration.nix /etc/nixos/configuration.nix.bak && sudo rm /etc/nixos/configuration.nix
 ```
@@ -59,6 +59,7 @@ Add home-manager if you want after:
 ```
 home-manager switch --flake ~/flakes/home-manager#dawn --extra-experimental-features nix-command --extra-experimental-features flakes
 ```
+
 </details>
 
 <br/>
