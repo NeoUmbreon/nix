@@ -10,12 +10,12 @@
       ./hardware-configuration.nix
     ];
 
-  #services.udev.extraRules = ''
-  #  SUBSYSTEM=="usb", ATTRS{idVendor}=="0403", ATTRS{idProduct}=="601e", MODE="0666"
-  #'';
   services.udev.extraRules = ''
-    SUBSYSTEM=="usb", ATTRS{idVendor}=="0403", ATTRS{idProduct}=="601e", MODE="0600", OWNER="dawn", ENV{UDISKS_IGNORE}="1"
+    SUBSYSTEM=="usb", ATTRS{idVendor}=="0403", ATTRS{idProduct}=="601e", MODE="0666"
   '';
+  #services.udev.extraRules = ''
+  #  SUBSYSTEM=="video4linux", ATTRS{idVendor}=="0403", ATTRS{idProduct}=="601e", MODE="0600", OWNER="dawn", ENV{UDISKS_IGNORE}="1"
+  #'';
 
   # Bootloader.
   boot.loader.systemd-boot.enable = true;
