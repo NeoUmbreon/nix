@@ -46,13 +46,11 @@ Now you can use:
 
 ```
 sudo cp /etc/nixos/configuration.nix /etc/nixos/configuration.nix.bak && sudo rm /etc/nixos/configuration.nix
-```
 
-```
 sudo ln -s ~/flakes/nixos/configuration.nix /etc/nixos/configuration.nix
-```
 
-`sudo nixos-rebuild switch`
+sudo nixos-rebuild switch
+```
 
 Add home-manager if you want after:
 
