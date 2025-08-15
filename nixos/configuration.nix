@@ -126,6 +126,7 @@
       joystickwake
       umu-launcher
       prismlauncher
+      dolphin-emu
 
       # Media and Audio
       easyeffects
