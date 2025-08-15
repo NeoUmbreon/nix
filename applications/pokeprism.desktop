@@ -2,7 +2,7 @@
 Categories=Game;Emulator;
 Comment=
 Exec=nix run '/home/dawn/flakes/pokeprismv-flake#pokeprism-emulator'
-Icon=/home/dawn/flakes/pokeprismv-flake/bgbw64/icon.png
+Icon=/home/dawn/flakes/pokeprismv-flake/bgb/icon.png
 Name=BGB Emulator
 NoDisplay=false
 Path=
