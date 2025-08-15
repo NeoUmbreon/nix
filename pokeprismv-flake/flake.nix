@@ -96,16 +96,16 @@
             name = "pokeprism-emulator";
             runtimeInputs = [ pkgs.wineWowPackages.stable ];
             text = ''
-              export WINEPREFIX="$HOME/.wine64"
-              export WINEARCH=win64
+              export WINEPREFIX="$HOME/.winebgb"
+              export WINEARCH=win32
 
               if [ ! -d "$WINEPREFIX" ]; then
                 echo "Initializing 64-bit Wine prefix at $WINEPREFIX..."
-                wine64 wineboot
+                wine wineboot
               fi
 
-              cd /home/dawn/flakes/pokeprismv-flake/bgbw64
-              exec wine64 bgb64.exe pokeprism.gbc -watch
+              cd /home/dawn/flakes/pokeprismv-flake/bgb
+              exec wine bgb.exe pokeprism.gbc -watch
             '';
           };
         };
