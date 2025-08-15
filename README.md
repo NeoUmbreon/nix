@@ -82,7 +82,7 @@ pokeprismv folder necessary, not provided
 nix develop
 ```
 
-Command from home-manager (essentially nix build --impure):
+Command from home-manager (essentially `nix build --impure`):
 ```
 vbuild
 ```
