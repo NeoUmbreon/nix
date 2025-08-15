@@ -2,7 +2,7 @@
 Categories=Game;Multimedia;
 Comment=
 Exec=nix run '/home/dawn/flakes/xx3dsfml/'
-Icon=
+Icon=/home/dawn/flakes/xx3dsfml/3ds.jpg
 Name=xx3dsfml
 NoDisplay=false
 Path=
