@@ -1,12 +1,14 @@
 [Desktop Entry]
-Categories=Development;Utility;
-Comment=
-Exec=nix run '/home/dawn/flakes/polished-map-flake/'
+Categories=Development;
+Comment=Polished Map++
+Exec=nix run /home/dawn/flakes/polished-map-flake
 Icon=/home/dawn/flakes/polished-map-flake/polished-map.png
 Name=Polished Map++
 NoDisplay=false
-Path=/home/dawn/flakes/pokeprismv-flake/pokeprismv/
+Path=
 StartupNotify=true
 Terminal=false
+TerminalOptions=
 Type=Application
-
+X-KDE-SubstituteUID=false
+X-KDE-Username=
