@@ -100,7 +100,7 @@
               export WINEARCH=win32
 
               if [ ! -d "$WINEPREFIX" ]; then
-                echo "Initializing 64-bit Wine prefix at $WINEPREFIX..."
+                echo "Initializing 32-bit Wine prefix at $WINEPREFIX..."
                 wine wineboot
               fi
 
