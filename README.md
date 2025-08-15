@@ -87,6 +87,10 @@ Command from home-manager (essentially `nix build --impure`):
 vbuild
 ```
 
+Then you can run BGB:
+```
+nix run '/home/dawn/flakes/pokeprismv-flake#pokeprism-emulator'
+```
 
 ### polished-map-flake
 ```
