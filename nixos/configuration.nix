@@ -22,9 +22,9 @@
   boot.loader.efi.canTouchEfiVariables = true;
 
   # Use latest kernel.
-  #boot.kernelPackages = pkgs.linuxPackages_latest;
+  boot.kernelPackages = pkgs.linuxPackages_latest;
   # Using LTS kernel for VMWare
-  boot.kernelPackages = pkgs.linuxPackages_6_12;
+  #boot.kernelPackages = pkgs.linuxPackages_6_12;
 
   #boot.kernelModules = [ "v4l2loopback" ];
   #boot.extraModulePackages = with config.boot.kernelPackages; [ v4l2loopback ];
