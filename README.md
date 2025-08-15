@@ -42,7 +42,7 @@ home-manager switch --flake ~/flakes/home-manager#dawn --extra-experimental-feat
 
 ### 2. (best) rebuild from flake
 ```
-sudo nixos-rebuild switch --flake /home/dawn/flakes/nixos
+sudo nixos-rebuild switch --flake ~/flakes/nixos
 ```
 
 Add home-manager
