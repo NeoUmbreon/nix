@@ -82,9 +82,11 @@ pokeprismv folder necessary, not provided
 nix develop
 ```
 
+Command from home-manager (essentially nix build --impure):
 ```
-nix build
+vbuild
 ```
+
 
 ### polished-map-flake
 ```
