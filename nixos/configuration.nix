@@ -179,6 +179,7 @@
       #putty
       tree
       ncdu
+      qbittorrent
 
       # Office
       thunderbird
