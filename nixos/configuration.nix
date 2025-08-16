@@ -165,7 +165,8 @@
       wl-clipboard # Command-line copy/paste utilities for Wayland
 
       # Utilities
-      neofetch
+      #neofetch
+      fastfetch
       fsearch
       xed-editor
       qdirstat

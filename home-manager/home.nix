@@ -97,6 +97,7 @@
       sshp = "ssh -p 8253 neo@neoumbreon.com";
       sudo = "sudo ";
       hm = "home-manager switch --flake ~/flakes/home-manager#dawn";
+      nrs = "sudo nixos-rebuild switch --flake ~/flakes/nixos";
     };
     initExtra = ''
     vbuild() {
