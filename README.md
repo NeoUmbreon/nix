@@ -72,7 +72,7 @@ These commands work in all of them, but recommended procedure below
 Add them all to your application menu:
 
 ```
-ln -s ~/flakes/applications/*.desktop ~/.local/share/applications/
+ln -s ~/flakes/extra/applications/*.desktop ~/.local/share/applications/
 ```
 
 ### pokeprismv-flake
@@ -101,3 +101,18 @@ nix build
 ```
 nix build
 ```
+
+### extra folder for manual configs:
+```
+cp -r ~/flakes/extra/dotfiles/.* ~/
+```
+
+```
+wine ~/flakes/extra/wineprogs/putty-0.83-installer.msi
+```
+
+```
+wine ~/flakes/extra/wineprogs/WinSCP-6.5.3-Setup.exe
+```
+
+Then open WinSCP and import your WinSCP.ini (not provided).

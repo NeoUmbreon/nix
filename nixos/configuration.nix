@@ -178,6 +178,7 @@
       google-chrome
       #putty
       tree
+      ncdu
 
       # Office
       thunderbird
