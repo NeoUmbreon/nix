@@ -18,6 +18,12 @@ git clone https://github.com/NeoUmbreon/nix flakes
 sudo cp /etc/nixos/hardware-configuration.nix ~/flakes/nixos/hardware-configuration.nix
 ```
 
+If in a virtual machine instead of a host:
+
+```
+cp ~/flakes/extra/alternateConfigs/virtual-machine/configuration.nix ~/flakes/nixos/configuration.nix 
+```
+
 <br/>
 
 ## There are 2 options to install the config. Only necessary to do ONE of these.
