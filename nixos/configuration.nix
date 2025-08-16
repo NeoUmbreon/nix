@@ -177,6 +177,7 @@
       parabolic
       google-chrome
       #putty
+      tree
 
       # Office
       thunderbird
