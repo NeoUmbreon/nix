@@ -86,6 +86,7 @@
       nrs-old = "sudo nixos-rebuild switch --flake ~/flakes/nixos";
       hm = "nh home switch /home/dawn/flakes/home-manager";
       nrs = "nh os switch /home/dawn/flakes/nixos";
+      nhc = "nh clean all --ask";
     };
     initExtra = ''
     vbuild() {
