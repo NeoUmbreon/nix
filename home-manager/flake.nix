@@ -21,10 +21,9 @@
       inputs.home-manager.follows = "home-manager";
     };
 
-    nyx.url = "github:Peritia-System/Nyx-Tools";
   };
 
-  outputs = { nixpkgs, home-manager, nyx, plasma-manager, ... }:
+  outputs = { nixpkgs, home-manager, plasma-manager, ... }:
     let
       system = "x86_64-linux";
       pkgs = nixpkgs.legacyPackages.${system};
@@ -43,8 +42,7 @@
 
         # Optionally use extraSpecialArgs
         # to pass through arguments to home.nix
-        # So home.nix can use inputs.nyx
-        extraSpecialArgs = { inherit nyx; };
+        extraSpecialArgs = { };
       };
     };
 }

@@ -1,4 +1,4 @@
-{ config, pkgs, nyx, ... }:
+{ config, pkgs, ... }:
 
 {
   # Home Manager needs a bit of information about you and the paths it should
@@ -15,23 +15,9 @@
   # release notes.
   home.stateVersion = "25.05"; # Please read the comment before changing.
 
-  # Import Nyx module
   imports = [
-    nyx.homeManagerModules.default
+
   ];
-
-  nyx = {
-    enable = true;
-    username = "dawn";
-    nixDirectory = "/home/dawn/flakes/nixos";
-    logDir = "/home/dawn/.nyx/logs";
-    autoPush = false;
-
-    nyx-tool.enable    = true;
-    nyx-rebuild.enable = true;
-    nyx-cleanup.enable = true;
-    nyx-tui.enable     = true;
-  };
 
   programs.mpv = {
     enable = true;

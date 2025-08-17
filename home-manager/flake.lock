@@ -37,40 +37,6 @@
         "type": "github"
       }
     },
-    "nixpkgs_2": {
-      "locked": {
-        "lastModified": 1754725699,
-        "narHash": "sha256-iAcj9T/Y+3DBy2J0N+yF9XQQQ8IEb5swLFzs23CdP88=",
-        "owner": "NixOS",
-        "repo": "nixpkgs",
-        "rev": "85dbfc7aaf52ecb755f87e577ddbe6dbbdbc1054",
-        "type": "github"
-      },
-      "original": {
-        "owner": "NixOS",
-        "ref": "nixos-unstable",
-        "repo": "nixpkgs",
-        "type": "github"
-      }
-    },
-    "nyx": {
-      "inputs": {
-        "nixpkgs": "nixpkgs_2"
-      },
-      "locked": {
-        "lastModified": 1754919143,
-        "narHash": "sha256-BUcbzYi7aOVldK8JrkOmo/cg6xQqn8CfFB7lCacZMFg=",
-        "owner": "Peritia-System",
-        "repo": "Nyx-Tools",
-        "rev": "56a8b8ff879f35cf8849c9333fb4327bf4e1f298",
-        "type": "github"
-      },
-      "original": {
-        "owner": "Peritia-System",
-        "repo": "Nyx-Tools",
-        "type": "github"
-      }
-    },
     "plasma-manager": {
       "inputs": {
         "home-manager": [
@@ -98,7 +64,6 @@
       "inputs": {
         "home-manager": "home-manager",
         "nixpkgs": "nixpkgs",
-        "nyx": "nyx",
         "plasma-manager": "plasma-manager"
       }
     }
