@@ -109,7 +109,7 @@
   users.users.dawn = {
     isNormalUser = true;
     description = "dawn";
-    extraGroups = [ "networkmanager" "wheel" "libvirtd"];
+    extraGroups = [ "networkmanager" "wheel" "libvirtd" "adbusers" ];
     packages = with pkgs; [
       # core system packages
       wine
@@ -197,6 +197,8 @@
 
   virtualisation.spiceUSBRedirection.enable = true;
 
+  # Android
+  programs.adb.enable = true;
 
   # OBS Studio with plugins
   programs.obs-studio = {
