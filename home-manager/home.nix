@@ -82,8 +82,10 @@
       vim = "nvim";
       sshp = "ssh -p 8253 neo@neoumbreon.com";
       sudo = "sudo ";
-      hm = "home-manager switch --flake ~/flakes/home-manager#dawn";
-      nrs = "sudo nixos-rebuild switch --flake ~/flakes/nixos";
+      hm-old = "home-manager switch --flake ~/flakes/home-manager#dawn";
+      nrs-old = "sudo nixos-rebuild switch --flake ~/flakes/nixos";
+      hm = "nh home switch /home/dawn/flakes/home-manager";
+      nrs = "nh os switch /home/dawn/flakes/nixos";
     };
     initExtra = ''
     vbuild() {

@@ -187,7 +187,7 @@
       zoom-us
     ];
   };
-
+  
   # QEMU/KVM
   programs.virt-manager.enable = true;
 
@@ -200,6 +200,13 @@
   # Android
   programs.adb.enable = true;
 
+  # NH
+  programs.nh = {
+    enable = true;
+    clean.enable = true;
+    clean.extraArgs = "--keep-since 4d --keep 3";
+    flake = "/home/dawn/flakes/nixos"; # sets NH_OS_FLAKE variable for you
+  };
   # OBS Studio with plugins
   programs.obs-studio = {
     enable = true;
