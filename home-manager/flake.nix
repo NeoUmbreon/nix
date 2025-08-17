@@ -15,11 +15,16 @@
       url = "github:nix-community/home-manager/release-25.05";
       inputs.nixpkgs.follows = "nixpkgs";
     };
+    plasma-manager = {
+      url = "github:nix-community/plasma-manager";
+      inputs.nixpkgs.follows = "nixpkgs";
+      inputs.home-manager.follows = "home-manager";
+    };
 
     nyx.url = "github:Peritia-System/Nyx-Tools";
   };
 
-  outputs = { nixpkgs, home-manager, nyx, ... }:
+  outputs = { nixpkgs, home-manager, nyx, plasma-manager, ... }:
     let
       system = "x86_64-linux";
       pkgs = nixpkgs.legacyPackages.${system};
@@ -30,7 +35,11 @@
 
         # Specify your home configuration modules here, for example,
         # the path to your home.nix.
-        modules = [ ./home.nix ];
+        modules = [ 
+          plasma-manager.homeManagerModules.plasma-manager
+
+          ./home.nix 
+        ];
 
         # Optionally use extraSpecialArgs
         # to pass through arguments to home.nix
