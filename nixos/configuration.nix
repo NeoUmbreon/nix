@@ -126,6 +126,7 @@
       # Social and Web
       discord
       google-chrome
+      vesktop
 
       # Launchers and Emus
       prismlauncher
