@@ -86,16 +86,17 @@
       nrs-old = "sudo nixos-rebuild switch --flake ~/flakes/nixos";
       hm = "nh home switch /home/dawn/flakes/home-manager";
       nrs = "nh os switch /home/dawn/flakes/nixos";
+      ncg = "nix-collect-garbage -d";
       nhc = "nh clean all --ask";
     };
     initExtra = ''
     vbuild() {
       cd ~/flakes/pokeprismv-flake/ || return 1
 
-      nix develop --command bash -c '
+      nom develop --command bash -c '
         echo "Entered nix shell temporarily. Building..."
-        nix build --impure || exit 1
-        cp result/pokeprism.gbc bgbw64/pokeprism.gbc || exit 1
+        nom build --impure || exit 1
+        cp result/pokeprism.gbc bgb/pokeprism.gbc || exit 1
         echo "Build and copy completed!"
       '
     }

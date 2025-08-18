@@ -6,9 +6,9 @@
 
 {
   imports =
-    [ # Include the results of the hardware scan.
-      ./hardware-configuration.nix
-    ];
+  [ # Include the results of the hardware scan.
+    ./hardware-configuration.nix
+  ];
 
   services.udev.extraRules = ''
     #xx3dsfml
@@ -29,12 +29,8 @@
   # Use latest kernel.
   boot.kernelPackages = pkgs.linuxPackages_latest;
 
-  networking.hostName = "nixos"; # Define your hostname.
-  # networking.wireless.enable = true;  # Enables wireless support via wpa_supplicant.
-
-  # Configure network proxy if necessary
-  # networking.proxy.default = "http://user:password@proxy:port/";
-  # networking.proxy.noProxy = "127.0.0.1,localhost,internal.domain";
+  # Define Hostname
+  networking.hostName = "nixos";
 
   # Enable networking
   networking.networkmanager.enable = true;
@@ -60,18 +56,18 @@
 
   # Enable the X11 windowing system.
   # You can disable this if you're only using the Wayland session.
-  services.xserver.enable = true;
+  #services.xserver.enable = true;
 
+  # Configure keymap in X11
+  #services.xserver.xkb = {
+  #  layout = "us";
+  #  variant = "";
+  #};
+  
   # Enable the KDE Plasma Desktop Environment.
   services.displayManager.sddm.enable = true;
   services.desktopManager.plasma6.enable = true;
   services.flatpak.enable = true;
-
-  # Configure keymap in X11
-  services.xserver.xkb = {
-    layout = "us";
-    variant = "";
-  };
 
   # Enable CUPS to print documents.
   services.avahi = {
@@ -105,89 +101,86 @@
   # Enable touchpad support (enabled default in most desktopManager).
   # services.xserver.libinput.enable = true;
 
-  # Define a user account. Don't forget to set a password with ‘passwd’.
+  # My programs
   users.users.dawn = {
     isNormalUser = true;
     description = "dawn";
     extraGroups = [ "networkmanager" "wheel" "libvirtd" "adbusers" ];
     packages = with pkgs; [
       # core system packages
-      wine
-      wine64
       git
-      neovim
+      wineWowPackages.full
       gcc
+      
+      # Text editing
+      neovim
+      xed-editor
       kdePackages.kate
-      #nil
-      marksman
       kdePackages.markdownpart
-      #sfml_2
+      marksman
 
-      # Bash prompt
-      #gitstatus
+      # Development
+      vscode
+      github-desktop
 
-      # LazyVim (this doesn't work)
-      #vimPlugins.LazyVim
+      # Social and Web
+      discord
+      google-chrome
+
+      # Launchers and Emus
+      prismlauncher
+      dolphin-emu
 
       # Gaming
       protonplus
       joystickwake
-      umu-launcher
-      prismlauncher
-      dolphin-emu
 
       # Media and Audio
-      easyeffects
-      gnomeExtensions.easyeffects-preset-selector
-      alsa-scarlett-gui
       pwvucontrol
-      kdePackages.kdenlive
       #qpwgraph
       #pavucontrol
+      #kdePackages.kmix
+
+      # GUI Utilities
+      fsearch
+      qdirstat
+      parabolic
+      qbittorrent
+
+      # CLI Utilities
+      fastfetch
+      tree
+      ncdu
+      nix-output-monitor # Better nix-build output
+      bat # Better cat output
+      wl-clipboard # Command-line copy/paste utilities for Wayland
+
+      # KDE Packages
+      kdePackages.sddm-kcm # Configuration module for SDDM (Login screen)
+      kdePackages.discover # For Flatpak or fwupd firmware update sevice
+      kdePackages.kcalc # Calculator
+      kdePackages.kcolorchooser # A small utility to select a color
+      #kdiff3 # Compares and merges 2 or 3 files or directories
+      #kdePackages.kolourpaint # Easy-to-use paint program
 
       # Graphics and Display
       nwg-look
-
-      # KDE Packages
-      kdePackages.discover # Optional: Install if you use Flatpak or fwupd firmware update sevice
-      kdePackages.kcalc # Calculator
-      kdePackages.kcharselect # Tool to select and copy special characters from all installed fonts
-      kdePackages.kcolorchooser # A small utility to select a color
-      kdePackages.kolourpaint # Easy-to-use paint program
-      kdePackages.ksystemlog # KDE SystemLog Application
-      kdePackages.sddm-kcm # Configuration module for SDDM
-      kdiff3 # Compares and merges 2 or 3 files or directories
-      kdePackages.partitionmanager # Optional Manage the disk devices, partitions and file systems on your computer
-      hardinfo2 # System information and benchmarks for Linux systems
-      #kdePackages.kmix
-
-      wayland-utils # Wayland utilities
-      wl-clipboard # Command-line copy/paste utilities for Wayland
-
-      # Utilities
-      #neofetch
-      fastfetch
-      fsearch
-      xed-editor
-      qdirstat
-      discord
-      vscode
-      github-desktop
-      element-desktop
-      parabolic
-      google-chrome
-      #putty
-      tree
-      ncdu
-      qbittorrent
 
       # Office
       thunderbird
       nextcloud-client
       zoom-us
+
+      # System Information
+      hardinfo2 # System information and benchmarks for Linux systems
+      wayland-utils # A utility for displaying information about the Wayland protocols supported by a Wayland compositor.
+      kdePackages.ksystemlog # KDE SystemLog Application
     ];
   };
-  
+
+  # Partition Manager
+  programs.partition-manager.enable = true;
+
   # QEMU/KVM
   programs.virt-manager.enable = true;
 
@@ -200,7 +193,7 @@
   # Android
   programs.adb.enable = true;
 
-  # NH
+  # NH (better output for nixos-rebuild switch and other commands)
   programs.nh = {
     enable = true;
     clean.enable = true;
@@ -234,8 +227,7 @@
   programs.appimage.enable = true;
   programs.appimage.binfmt = true;
 
-
-   # Nix ld
+  # Nix ld
   programs.nix-ld.enable = true;
   programs.nix-ld.libraries = with pkgs; [
     # Add any missing dynamic libraries for unpackaged programs
@@ -250,7 +242,7 @@
     fwupd
   ];
 
- # Hardware and gaming
+  # Hardware and gaming
   hardware.steam-hardware.enable = true;
   hardware.graphics.enable32Bit = true;
   hardware.xone.enable = true;
@@ -261,24 +253,8 @@
   programs.gamescope.enable = true;
   programs.gamescope.capSysNice = true;
 
-  # Noisetorch
-  programs.noisetorch.enable = true;
-
   # Install firefox.
   programs.firefox.enable = true;
-
-  # Allow unfree packages
-  nixpkgs.config.allowUnfree = true;
-
-  # Bash prompt gitstatus
-  #programs.bash.promptInit = "source $(gitstatus-share)/gitstatus.prompt.sh";
-
-  # List packages installed in system profile. To search, run:
-  # $ nix search wget
-  environment.systemPackages = with pkgs; [
-    vim # Do not forget to add an editor to edit configuration.nix! The Nano editor is also installed by default.
-    wget
-  ];
 
   nix.settings.experimental-features = [ "nix-command" "flakes" ];
   nix.settings.auto-optimise-store = true;
@@ -290,25 +266,15 @@
     nerd-fonts.hack
   ];
 
+  # Allow unfree packages
+  nixpkgs.config.allowUnfree = true;
 
-  # Some programs need SUID wrappers, can be configured further or are
-  # started in user sessions.
-  # programs.mtr.enable = true;
-  # programs.gnupg.agent = {
-  #   enable = true;
-  #   enableSSHSupport = true;
-  # };
-
-  # List services that you want to enable:
-
-  # Enable the OpenSSH daemon.
-  # services.openssh.enable = true;
-
-  # Open ports in the firewall.
-  # networking.firewall.allowedTCPPorts = [ ... ];
-  # networking.firewall.allowedUDPPorts = [ ... ];
-  # Or disable the firewall altogether.
-  # networking.firewall.enable = false;
+  # List packages installed in system profile. To search, run:
+  # $ nix search wget
+  environment.systemPackages = with pkgs; [
+    vim # Do not forget to add an editor to edit configuration.nix! The Nano editor is also installed by default.
+    wget
+  ];
 
   # This value determines the NixOS release from which the default
   # settings for stateful data, like file locations and database versions
