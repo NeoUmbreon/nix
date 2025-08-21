@@ -147,8 +147,8 @@
     };
     shortcuts = {
       "kwin"."Window Close" = ["Alt+F4" "Meta+Q,Alt+F4,Close Window"];
-      "kwin"."Window Maximize" = "Meta+Up,Meta+PgUp,Maximize Window";
-      "kwin"."Window Minimize" = "Meta+Down,Meta+PgDown,Minimize Window";
+      "kwin"."Window Maximize" = ["Meta+PgUp" "Meta+Up,Meta+PgUp,Maximize Window"];
+      "kwin"."Window Minimize" = ["Meta+PgDown" "Meta+Down,Meta+PgDown,Minimize Window"];
       "plasmashell"."activate application launcher" = ["Meta" "Alt+F1,Meta" "Alt+F1,Activate Application Launcher"];
       "services/org.kde.konsole.desktop"."_launch" = "Meta+Return";
     };
