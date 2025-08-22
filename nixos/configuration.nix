@@ -147,6 +147,8 @@
       qdirstat
       parabolic
       qbittorrent
+      #qalculate-qt
+      mate.mate-calc
 
       # CLI Utilities
       fastfetch
@@ -159,7 +161,7 @@
       # KDE Packages
       kdePackages.sddm-kcm # Configuration module for SDDM (Login screen)
       kdePackages.discover # For Flatpak or fwupd firmware update sevice
-      kdePackages.kcalc # Calculator
+      #kdePackages.kcalc # Calculator
       kdePackages.kcolorchooser # A small utility to select a color
       #kdiff3 # Compares and merges 2 or 3 files or directories
       #kdePackages.kolourpaint # Easy-to-use paint program
