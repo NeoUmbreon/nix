@@ -4,16 +4,16 @@
   inputs = {
     # Specify the source of Home Manager and Nixpkgs.
     # Unstable
-    nixpkgs.url = "github:nixos/nixpkgs/nixos-unstable";
+    #nixpkgs.url = "github:nixos/nixpkgs/nixos-unstable";
     # 25.05
-    #nixpkgs.url = "github:nixos/nixpkgs/nixos-25.05";
+    nixpkgs.url = "github:nixos/nixpkgs/nixos-25.05";
 
     home-manager = {
       # Unstable
-      url = "github:nix-community/home-manager";
+      #url = "github:nix-community/home-manager";
       # 25.05
-      #url = "github:nix-community/home-manager/release-25.05";
-      #inputs.nixpkgs.follows = "nixpkgs";
+      url = "github:nix-community/home-manager/release-25.05";
+      inputs.nixpkgs.follows = "nixpkgs";
     };
     plasma-manager = {
       url = "github:nix-community/plasma-manager";

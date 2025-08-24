@@ -168,8 +168,7 @@
         alignment = "center";
         lengthMode = "fit";
         widgets = [
-          # "org.kde.plasma.kickoff"
-          "io.gitgud.wackyideas.SevenStart"
+          "org.kde.plasma.kickoff"
           "org.kde.plasma.icontasks"
           "org.kde.plasma.panelspacer"
           "org.kde.plasma.systemtray"
