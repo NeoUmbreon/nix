@@ -114,11 +114,7 @@ nix build
 nix build
 ```
 
-### extra folder for manual configs:
-```
-cp -r ~/flakes/extra/dotfiles/.* ~/
-```
-
+### install wine programs:
 ```
 wine ~/flakes/extra/wineprogs/putty-0.83-installer.msi
 ```
