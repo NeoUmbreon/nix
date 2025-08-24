@@ -6,81 +6,81 @@
   };
 
   config = lib.mkIf config.userPackages.enable {
-	# My programs
-	users.users.dawn = {
-		isNormalUser = true;
-		description = "dawn";
-		extraGroups = [ "networkmanager" "wheel" "libvirtd" "adbusers" ];
-		packages = with pkgs; [
-			# core system packages
-			git
-			wineWowPackages.full
-			gcc
+    # My programs
+    users.users.dawn = {
+      isNormalUser = true;
+      description = "dawn";
+      extraGroups = [ "networkmanager" "wheel" "libvirtd" "adbusers" ];
+      packages = with pkgs; [
+        # core system packages
+        git
+        wineWowPackages.full
+        gcc
 
-			# Text editing
-			neovim
-			xed-editor
-			kdePackages.kate
-			kdePackages.markdownpart
-			marksman
+        # Text editing
+        neovim
+        xed-editor
+        kdePackages.kate
+        kdePackages.markdownpart
+        marksman
 
-			# Development
-			vscode
-			github-desktop
+        # Development
+        vscode
+        github-desktop
 
-			# Social and Web
-			discord
-			google-chrome
-			vesktop
+        # Social and Web
+        discord
+        google-chrome
+        vesktop
 
-			# Launchers and Emus
-			prismlauncher
-			dolphin-emu
+        # Launchers and Emus
+        prismlauncher
+        dolphin-emu
 
-			# Gaming
-			protonplus
-			joystickwake
+        # Gaming
+        protonplus
+        joystickwake
 
-			# Media and Audio
-			pwvucontrol
-			#qpwgraph
-			#pavucontrol
-			#kdePackages.kmix
+        # Media and Audio
+        pwvucontrol
+        #qpwgraph
+        #pavucontrol
+        #kdePackages.kmix
 
-			# GUI Utilities
-			fsearch
-			qdirstat
-			parabolic
-			qbittorrent
-			#qalculate-qt
-			mate.mate-calc
+        # GUI Utilities
+        fsearch
+        qdirstat
+        parabolic
+        qbittorrent
+        #qalculate-qt
+        mate.mate-calc
 
-			# CLI Utilities
-			fastfetch
-			tree
-			ncdu
-			nix-output-monitor # Better nix-build output
-			bat # Better cat output
-			wl-clipboard # Command-line copy/paste utilities for Wayland
+        # CLI Utilities
+        fastfetch
+        tree
+        ncdu
+        nix-output-monitor # Better nix-build output
+        bat # Better cat output
+        wl-clipboard # Command-line copy/paste utilities for Wayland
 
-			# KDE Packages
-			kdePackages.sddm-kcm # Configuration module for SDDM (Login screen)
-			kdePackages.discover # For Flatpak or fwupd firmware update sevice
-			kdePackages.kcolorchooser # A small utility to select a color
-			#kdePackages.kcalc # Calculator
-			#kdiff3 # Compares and merges 2 or 3 files or directories
-			#kdePackages.kolourpaint # Easy-to-use paint program
+        # KDE Packages
+        kdePackages.sddm-kcm # Configuration module for SDDM (Login screen)
+        kdePackages.discover # For Flatpak or fwupd firmware update sevice
+        kdePackages.kcolorchooser # A small utility to select a color
+        #kdePackages.kcalc # Calculator
+        #kdiff3 # Compares and merges 2 or 3 files or directories
+        #kdePackages.kolourpaint # Easy-to-use paint program
 
-			# Office
-			thunderbird
-			nextcloud-client
-			zoom-us
+        # Office
+        thunderbird
+        nextcloud-client
+        zoom-us
 
-			# System Information
-			hardinfo2 # System information and benchmarks for Linux systems
-			wayland-utils # A utility for displaying information about the Wayland protocols supported by a Wayland compositor.
-			kdePackages.ksystemlog # KDE SystemLog Application
-		];
-	};
+        # System Information
+        hardinfo2 # System information and benchmarks for Linux systems
+        wayland-utils # A utility for displaying information about the Wayland protocols supported by a Wayland compositor.
+        kdePackages.ksystemlog # KDE SystemLog Application
+      ];
+    };
   };
 }

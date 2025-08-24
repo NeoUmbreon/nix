@@ -6,19 +6,19 @@
   };
 
   config = lib.mkIf config.optionalServices.enable {
-	# Partition Manager
-	programs.partition-manager.enable = true;
+    # Partition Manager
+    programs.partition-manager.enable = true;
 
-	# QEMU/KVM
-	programs.virt-manager.enable = true;
+    # QEMU/KVM
+    programs.virt-manager.enable = true;
 
-	users.groups.libvirtd.members = ["dawn"];
+    users.groups.libvirtd.members = ["dawn"];
 
-	virtualisation.libvirtd.enable = true;
+    virtualisation.libvirtd.enable = true;
 
-	virtualisation.spiceUSBRedirection.enable = true;
+    virtualisation.spiceUSBRedirection.enable = true;
 
-	# Android
-	programs.adb.enable = true;
+    # Android
+    programs.adb.enable = true;
   };
 }
