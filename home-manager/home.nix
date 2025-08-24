@@ -148,7 +148,7 @@
       theme = "Se7enAeroStyle";
       windowDecorations.library = "org.kde.kwin.aurorae";
       windowDecorations.theme = "__aurorae__svg__AeroSense";
-      iconTheme = "Nova7";
+      iconTheme = "Windows 7 Aero";
       cursor.theme = "CatPaw";
       cursor.size = 24;
     };
@@ -168,21 +168,11 @@
         alignment = "center";
         lengthMode = "fit";
         widgets = [
-          "org.kde.plasma.icontasks"
-        ];
-      }
-      # Global menu at the top
-      {
-        screen = "all";
-        location = "top";
-        height = 26;
-        opacity = "translucent";
-        widgets = [ 
           "org.kde.plasma.kickoff"
-          "org.kde.plasma.panelspacer"
-          "org.kde.plasma.digitalclock"
+          "org.kde.plasma.icontasks"
           "org.kde.plasma.panelspacer"
           "org.kde.plasma.systemtray"
+          "org.kde.plasma.digitalclock"
           "org.kde.plasma.showdesktop"
         ];
       }
