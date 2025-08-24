@@ -146,6 +146,7 @@
       colorScheme = "Sweet";
       theme = "Se7enAeroStyle";
       lookAndFeel = "org.kde.breezedark.desktop";
+      windowDecorations.library = "org.kde.kwin.aurorae";
       windowDecorations.theme = "__aurorae__svg__AeroSense";
       iconTheme = "Nova7";
       cursor.theme = "CatPaw";
