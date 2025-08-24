@@ -281,7 +281,6 @@
       "plasmanotifyrc"."Applications/firefox"."Seen" = true;
       "plasmanotifyrc"."Applications/org.qbittorrent.qBittorrent"."Seen" = true;
       "plasmanotifyrc"."Applications/thunderbird"."Seen" = true;
-      "plasmarc"."PlasmaToolTips"."Delay" = 200;
       "spectaclerc"."ImageSave"."lastImageSaveLocation" = "file:///home/dawn/Pictures/Screenshots/Screenshot_20250816_202853.png";
       "spectaclerc"."ImageSave"."translatedScreenshotsFolder" = "Screenshots";
       "spectaclerc"."VideoSave"."translatedScreencastsFolder" = "Screencasts";
