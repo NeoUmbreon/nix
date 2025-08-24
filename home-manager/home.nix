@@ -141,16 +141,16 @@
     workspace = {
       clickItemTo = "select";
       wallpaper = /home/dawn/Desktop/Wallpapers/umbreon_background_by_luciana_vee_d7vi8sn.png;
-      tooltipDelay = "200";
-      enableMiddleClickPaste = "false";
+      tooltipDelay = 200;
+      enableMiddleClickPaste = false;
+      #lookAndFeel = "org.kde.breezedark.desktop";
       colorScheme = "Sweet";
       theme = "Se7enAeroStyle";
-      lookAndFeel = "org.kde.breezedark.desktop";
       windowDecorations.library = "org.kde.kwin.aurorae";
       windowDecorations.theme = "__aurorae__svg__AeroSense";
       iconTheme = "Nova7";
       cursor.theme = "CatPaw";
-      cursor.size = "24";
+      cursor.size = 24;
     };
     hotkeys.commands."launch-konsole" = {
       name = "Launch Konsole";
