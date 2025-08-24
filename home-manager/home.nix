@@ -157,7 +157,15 @@
       key = "Meta+Return";
       command = "konsole";
     };
-
+    spectacle.shortcuts = {
+      recordRegion = null;
+      recordScreen = null;
+    };
+    krunner = {
+      shortcuts.launch = "Meta+R";
+      position = "center";
+      historyBehavior = "enableSuggestions";
+    };
     panels = [
       # Windows-like panel at the bottom
       {
