@@ -145,7 +145,7 @@
       enableMiddleClickPaste = false;
       #lookAndFeel = "org.kde.breezedark.desktop";
       colorScheme = "Sweet";
-      theme = "Sweet";
+      theme = "Breeze";
       windowDecorations.library = "org.kde.kwin.aurorae";
       windowDecorations.theme = "__aurorae__svg__AeroSense";
       iconTheme = "Windows 7 Aero";
@@ -163,12 +163,13 @@
       {
         screen = "all";
         location = "bottom";
-        height = 44;
+        height = 54;
         opacity = "translucent";
         alignment = "center";
         lengthMode = "fit";
         widgets = [
-          "org.kde.plasma.kickoff"
+          # "org.kde.plasma.kickoff"
+          "io.gitgud.wackyideas.SevenStart"
           "org.kde.plasma.icontasks"
           "org.kde.plasma.panelspacer"
           "org.kde.plasma.systemtray"
