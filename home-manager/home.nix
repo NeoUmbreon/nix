@@ -163,24 +163,29 @@
       {
         screen = "all";
         location = "bottom";
-        height = 44;
+        height = 54;
+        opacity = "translucent";
+        alignment = "center";
+        lengthMode = "fit";
         widgets = [
-          "org.kde.plasma.kickoff"
           "org.kde.plasma.icontasks"
-          "org.kde.plasma.marginsseparator"
-          "org.kde.plasma.systemtray"
-          "org.kde.plasma.digitalclock"
         ];
       }
       # Global menu at the top
-      #{
-      #  screen = "all";
-      #  location = "top";
-      #  height = 26;
-      #  widgets = [ 
-      #    "org.kde.plasma.appmenu"
-      #  ];
-      #}
+      {
+        screen = "all";
+        location = "top";
+        height = 26;
+        opacity = "translucent";
+        widgets = [ 
+          "org.kde.plasma.kickoff"
+          "org.kde.plasma.panelspacer"
+          "org.kde.plasma.digitalclock"
+          "org.kde.plasma.panelspacer"
+          "org.kde.plasma.systemtray"
+          "org.kde.plasma.showdesktop"
+        ];
+      }
     ];
 
     shortcuts = {
