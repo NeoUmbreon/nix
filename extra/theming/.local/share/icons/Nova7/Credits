@@ -1,0 +1,903 @@
+***NOVA7***
+
+Version 4
+
+A skeuomorphic icon theme, based on the icon designs of the 2000s and early 2010s.
+
+Selection & editing by FarQuinn.
+
+
+SOURCES & LICENSES
+
+* Android Icon Pack, by Abhash Bikram Thapa and pixelpinch.com: credit required
+
+* Cartoon Icons & Happy Holidays, by Robsonbillponte: permission for inclusion in this icon pack granted by the artist.
+
+* Choqok, by Mehrdad Momeny and Andrey Esin: GPL 2 or 3 or 'any later version accepted by the membership of KDE e.V. (or its successor approved by the membership of KDE e.V.)
+
+* CPU - Icon Pack, by 3xhumed: CC BY-NC-ND 3.0
+https://creativecommons.org/licenses/by-nc-nd/3.0/
+
+* Crystal Clear & Crystal Project, by Everaldo Coelho and others: LGPL
+https://www.gnu.org/licenses/old-licenses/lgpl-2.1.html
+
+Note: from June 2007 onwards, the site at http://everaldo.com stated the license for the 'Crystal Project' icons as being the LGPL. The texts of the LGPL 2.1 was copied verbatim to the license page, https://web.archive.org/web/20070626051615/http://www.everaldo.com/crystal/?action=license (accessed 7 September 2021). It is not immediately apparent from the description given on the page if this license also applies to earlier versions of the Crystal theme, such as Crystal Clear. However (1) the 'pics' directory of kdelibs-3.4.0 contains a file called LICENSE.crystalsvg which states that the LGPL version 2.1 applies to CrystalSVG and (2) when Everaldo Coelho was asked about the license governing the use of the Crystal Clear icons in a 2005 post on the kde-artists mailing list, he stated that it was LGPL: https://marc.info/?l=kde-artists&m=111947174930644&w=2 (accessed 7 September 2021).
+
+At the time of writing, the Crystal Clear icons can be found at https://commons.wikimedia.org/wiki/Crystal_Clear
+At the time of writing, the Crystal Project icons can be found at https://web.archive.org/web/20070707115119/http://www.everaldo.com/crystal/?action=downloads.
+
+* Darktable, by Klaus Staedtler (icon designs): GPL 3
+
+* Debian: CC BY-SA 3.0 or LGPL 3 (or later)
+https://creativecommons.org/licenses/by-sa/3.0/
+https://www.gnu.org/licenses/lgpl-3.0.html
+
+* Delft, by Matthieu James (original) and MadMaxMS (additions): GPL 3.
+At the time of writing, the Delft project can be found here: https://github.com/madmaxms/iconpack-delft
+
+* E-commerce and Business Icon Set, by Anastasia Kulik: CC BY 4
+https://www.designcontest.com/ecommerce-and-business-icon-set/
+https://creativecommons.org/licenses/by/4.0/
+
+* Elementary, by Sebastian Porta, Sergey "Shnatsel" Davidoff,
+Oliver Scholtz, Dennis Fisher, Caleb Riley "spiceofdesign",
+Simon "Ochosi" Steinbeiß and Cassidy James: GPL 3
+
+* Elementary-extras, by Sebastian Porta, Oliver Scholtz and Dennis Fisher: GPL 2
+
+* Faenza, by Matthieu James: GPL 3
+https://www.gnu.org/licenses/gpl-3.0.en.html
+At the time of writing, The Faenze project can be found here: https://github.com/shlinux/faenza-icon-theme
+
+* Flatpak: CC BY 3.0
+https://creativecommons.org/licenses/by-sa/3.0/
+
+* Fluent Emoji, by Microsoft: MIT license
+Details included in the '00-licenses' folder. See the file 'Fluent Emoji [MIT license]'
+
+* FS Ubuntu Icons, by Frank Souza: GPL 3
+https://www.gnu.org/licenses/gpl-3.0.en.html
+
+* Fugue Icons, by Yusuke Kamiyamane: CC BY 3.0
+https://creativecommons.org/licenses/by/3.0/
+
+* Git Logo, by Jason Long: CC BY 3.0
+https://git-scm.com/downloads/logos
+
+* Gnome: CCASA 3 or LGPL 3
+https://creativecommons.org/licenses/by-sa/3.0/
+https://www.gnu.org/licenses/lgpl-3.0.html
+
+* Godot: Godot Logo and icon usage guidelines
+
+* Google (Irina Blok): CC BY 3.0
+https://creativecommons.org/licenses/by/3.0/
+
+* G-Xiria, by qbashi: Artistic License 2.0
+The 256*256 versions of the icons here included are the originals from which the other included versions are derived, be it through downscaling and/or editing.
+
+* Handbrake icon by Matt Johnson: CC BY-SA 4.0
+https://creativecommons.org/licenses/by-sa/4.0/
+
+* Karasa Jaga, by Rizal Muttaqin, Rania Amina and the original Oxygen team: LGPL 3
+
+* KDE Clipart: LGPL 
+https://www.gnu.org/licenses/lgpl-3.0.html
+
+Version not specified on https://kde.org/stuff/clipart.php (accessed 7 September 2021)
+
+* Kompare: GPL 3
+https://www.gnu.org/licenses/gpl-3.0.en.html
+
+* Learning to fly, version 7, by palko-drawing (DeviantArt)/facsavar (KDE Store): CC-BY-NC-SA
+https://creativecommons.org/licenses/by-nc-sa/4.0/
+
+Version of the license is not specified in the readme.
+Note: version 3 of the theme, dated 10 June 2018 on DeviantArt, uses the more restrictive CC BY-NC-ND 3.0 license.
+
+* LibreOffice application icons, by The Document Foundation: CC BY-SA 3.0
+https://creativecommons.org/licenses/by-sa/3.0/
+
+* McDo Design (YOSHIDA Susumu)
+
+Free for non-commercial use.
+Website archived here:
+https://web.archive.org/web/20120220172925/http://www.mcdodesign.com/downloads
+
+* MiRa: CC BY-NC-ND 3.0
+
+Website archived here:
+https://web.archive.org/web/20120317064615/http://www.kidcomic.net/mira/
+
+Icon-related posts on the archived website can be found using this URL:
+https://web.archive.org/web/20111027044108/http://www.kidcomic.net/mira/tag.php?tag=icon
+
+* Mozilla: Mozilla Public License 
+https://www.mozilla.org/en-US/MPL/1.1/
+https://www.mozilla.org/en-US/MPL/2.0/
+
+* My 7 Icons, by Itzik Gur: freeware
+
+The artist confirmed that the icons were 'total free' on his Deviant Art page in 2013. The page is archived here: https://web.archive.org/web/20160419205051/http://itzikgur.deviantart.com/art/My-7-Icons-by-Itzik-Gur-183317119
+
+* My Secret, Shopping Bag and Webtoys, by Artdesigner.lv (Tanya Suhodolska; nicknames LazyCrazy and Lazymau): link to webpage and acknowledgement of the artist required.
+Original link: http://www.artdesigner.lv. The site was later relocated to http://artdesigncat.com
+
+* Nintendo DS Rom Icons, by RaiderXXX: CC BY-NC-SA 3.0
+https://creativecommons.org/licenses/by-nc-sa/3.0/
+
+* Nintendo Rom Icons, by DuRoLuRo⁄GameboyMiMi: Creative Commons Attribution 3.0
+https://creativecommons.org/licenses/by/3.0/
+
+* Noup: CC BY-SA 3.0
+https://creativecommons.org/licenses/by-sa/3.0/
+
+* Nova7, by FarQuinn (this theme): CC BY 3.0
+https://creativecommons.org/licenses/by/3.0/
+
+* NuoveXT, by Saki: GPL 2
+https://www.gnu.org/licenses/old-licenses/gpl-2.0.html
+
+At the time of writing, the NuoveXT icons can be found here: https://archive.debian.org/debian/pool/main/k/kde-icons-nuovext/
+
+* NuoveXT 2, by Saki: LGPL 
+https://www.gnu.org/licenses/old-licenses/lgpl-2.1.html
+
+Version not specified on the archived webpage at https://web.archive.org/web/20070913065538/http://www.kde-look.org/content/show.php/nuoveXT+2?content=62630. 2.0 or 2.1 Must have been intended, however, as the pack was released just before publication of the LGPL 3.
+
+* Nuvola, by David Vignoni: LGPL 2.1
+https://www.gnu.org/licenses/old-licenses/lgpl-2.1.html
+
+* OwTwo, by eudaimon: LGPL 3 or later
+
+* Oxygen, by the Oxygen Project: LGPL 3 or later
+
+At the time of writing, the Oxygen icon project can be found here: https://github.com/KDE/oxygen-icons
+
+* Oxylite, by MX-2: multiple licenses
+
+Action icons used here: LGPL-3.0-or-later
+App icons used here: multiple licenses (specified below, under apps)
+Emblem icon used here: LGPL-3.0-or-later
+Mimetype icons used here: LGPL-2.0-or-later or CC-BY-SA-4.0 (Android, Flatpak, MSI, RPM); LGPL-3.0-or-later (Debian)
+Status - User icons used here: LGPL-3.0-or-later
+Status - Weather icons used here: LGPL-2.0-or-later or CC-BY-SA-4.0
+
+https://www.gnu.org/licenses/lgpl-3.0.html
+
+* Python: Python trademark policy (consulted March 2021)
+'In general, we want the logo to be used as widely as possible to indicate use of Python or suitability for Python. However, please ask first when using a derived version of the logo or when in doubt.'
+
+* Scuba Diving Icons, by pcconsultants.co.uk for diveandgo.com: Creative Commons Attribution 3.0
+https://creativecommons.org/licenses/by/3.0/
+
+* Tango, by the Tango Project Contributos (Ulisse Perusin, Steven Garrity, Lapo Calamandrei and others): Public Domain.
+
+* UltraBuuf, by 'Mattahan' Paul Davey: CC BY-NC-SA 4.0
+https://creativecommons.org/licenses/by-nc-sa/4.0/
+
+* Victory, by Daren: LGPL (this license applies to those parts that are used here, which were based on NuoveXT 2)
+https://www.gnu.org/licenses/old-licenses/lgpl-2.1.html
+
+Version not specified, yet as the creator bases their licensing on that of the icons which he based his own work on, version 2.1 must have been intended.
+
+* Vista Business Icons, by Lokas Software at http://www.awicons.com/: CC BY 3.0
+https://creativecommons.org/licenses/by/3.0/
+
+* Weather Icon Set, by Gnokii: CC BY 3.0
+https://www.deviantart.com/gnokii/art/Weather-Icon-Set-308364079
+
+* Windows Aero Styled App Icon Pack Volume One, by Rocket041: credit required
+https://www.deviantart.com/rocket041/art/Windows-Aero-Styled-App-Icon-Pack-Volume-One-917668477
+
+
+LICENSES GOVERNING ICONS WHICH INCORPORATE ELEMENTS FROM MULTIPLE SOURCES
+
+The LGPL 2.0 and 2.1 (section 3) allow for 'libraries' to be relicensed under the conditions of the GPL 2 or later. The LGPL 3 (section 2b) allows for modified 'libraries' to be relicensed under the GPL. This allows for many combinations, among which a large number of those listed below.
+
+It is also my understanding that art licensed under the CC BY 3.0 license can be combined with art licensed under the GPL 3, provided any changes to the original are marked as such and the original artist is credited. The site at https://creativecommons.org/version4/ (accessed 28-08-2022) includes the following statement:
+
+-----
+Clarity about adaptations
+The BY and BY-NC 4.0 licenses are clearer about how adaptations are to be licensed, a
+source of confusion for some under the earlier versions of those licenses. These licenses
+now clarify that you can apply any license to your contributions you want so long as
+your license doesn’t prevent users of the remix from complying with the original
+license. While this is how 3.0 and earlier versions are understood, the 4.0 licenses make
+it abundantly clear and will help remixers in understanding their licensing obligations.
+-----
+
+A few icons incorporate elements that are in the public domain. To those icons the license governing the other element(s) incorporated in their design applies.
+
+To icons that do not incorporate elements from multiple sources the original licenses apply.
+
+Crystal Clear/Crystal Project (LGPL 2.1) + Gnome (LGPL 3): GPL 3
+Crystal Clear/Crystal Project (LGPL 2.1) + Google (CC BY 3.0): CC BY 3.0 for the robot; GPL 3 for the other elements
+Crystal Clear/Crystal Project (LGPL 2.1) + NuoveXT (GPL 2): GPL 2
+Crystal Clear/Crystal Project (LGPL 2.1) + NuoveXT 2 (LGPL 2/2.1): GPL 3
+Crystal Clear/Crystal Project (LGPL 2.1) + Nuvola (LGPL 2.1): GPL 3
+Crystal Clear/Crystal Project (LGPL 2.1) + Oxygen (LGPL 3): GPL 3
+Crystal Clear/Crystal Project (LGPL 2.1) + Victory (LGPL 2.1/3): GPL 3
+Crystal Clear/Crystal Project (LGPL 2.1) + Oxygen (LGPL 3) + KDE clipart (LGPL 3): GPL 3
+Fluent Emoji (MIT) + Oxygen (LGPL 3): GPL3
+FS Ubuntu (GPL 3) + NuoveXT 2 (LGPL 2/2.1): GPL 3
+Fugue Icons (CC BY 3.0) + Oxygen (LGPL 3): CC By 3.0 for the cloud; GPL 3 for the folder icon. In order to facilitate the use of the cloud by others under the terms of the CC By 3.0 license, a copy has been included in the licenses folder.
+Fugue Icons (CC BY 3.0) + NuoveXT 2 (LGPL 2/2.1): CC By 3.0 for the cloud; GPL 3 for the arrow.
+Gnome (LGPL 3) + NuoveXT 2 (LGPL 2/2.1): GPL 3
+Gnome (LGPL 3) + Oxygen (LGPL 3): GPL 3
+Google (CC BY 3.0) + Oxygen (LGPL 3) + Victory (LGPL 2.1/3): CC BY 3.0 for the robot; GPL 3 for the other elements
+Nova7 (CC BY 3.0) + Oxygen (LGPL 3): CC BY 3.0 for the document; GPL 3 for the folder
+NuoveXT (GPL 2) + NuoveXT 2 (LGPL 2/2.1): GPL 2
+NuoveXT 2 (LGPL 2/2.1) + Debian (LGPL 3): GPL 3
+NuoveXT 2 (LGPL 2/2.1) + Oxygen (LGPL 3): GPL 3
+NuoveXT 2 (LGPL 2/2.1) + Victory (LGPL 2.1/3): GPL 3
+Oxygen (LGPL 3) + Victory (LGPL 2.1): GPL 3
+Victory (LGPL 2.1) + KDE clipart (LGPL 3): GPL 3
+
+----
+
+SOURCES - SPECIFIED PER ICON CATEGORY
+
+Note - icons whose name ends in -symbolic are listed only if they have no regular equivalent as the two versions are identical and, therefore, use the same resources.
+
+ACTIONS
+
+------------
+16*16 pixels
+------------
+* Crystal Project: gnumeric-column-hide, gnumeric-column-unhide, gnumeric-row-hide, gnumeric-row-unhide, gnumeric-visible, hide-table-column, hide-table-row, hint, layer-visible-on, layer-visible-off, mail-mark-important, mail-meeting-request-reply, password-show-off, password-show-on, quickview, show-table-column, show-table-row, speaker, view-visible, visibility; the following icons from 48*48 pixels upwards: document-open, document-open-data, document-open-folder, project-open, scriptopen, tag-folder.
+* NuoveXT 2: mail-forward, mail-forwarded, mail-replied, mail-reply-sender.
+* NuoveXT 2 (modified): mail-forwarded-replied, mail-reply-all.
+* Oxygen: mail-flag
+
+------------------
+16*16-22*22 pixels
+------------------
+* Crystal Project: format-indent-less-* (all), format-indent-more-* (all), format-justify-* (all), mail-mark-read, mail-mark-unread-new, mail-read, mail-unread-new
+* Nova7: list-remove
+* NuoveXT 2: window-maximize, window-minimize, window-restore
+* Oxygen: group, meeting-attending, resource-group, system-users, user-group-properties, view-process-users
+
+------------------
+16*16-32*32 pixels
+------------------
+* Crystal Project: resource-calendar-child, view-calendar-day, view-calendar-month, view-calendar-upcoming-days, view-calendar-week, view-calendar-workweek, view-calendar, view-pim-calendar, view-resource-calendar (note: the contrast of the view*calendar* icons was enhanced)
+* Crystal Project (modified): folder-sync, folder-sync, go-parent-folder (arrow redrawn; based on example from NuoveXT), view-list-details, view-list-symbolic, view-list-tree
+* Crystal Project + NuoveXT (combined icon elements): view-calendar-tasks
+* Crystal Project + NuoveXT 2 (combined icon elements): resource-calendar-child-insert, resource-calendar-insert
+* Crystal Project + Oxygen (combined icon elements): document-open-remote
+* Fugue Icons: pin, window-pin
+* Fugue Icons + NuoveXT 2: cloud-download
+* Nova7: menu_new, menu_new_sep, playlist-sort, sort_incr, sort-name, view-sort, view-sort-ascending, view-sort-ascending-name, view-sort-descending, view-sort-descending-name
+* NuoveXT 2 + Oxygen: action-albumfolder-importdir2, albumfolder-importdir, albumfolder-new, archive-insert-directory, folder-add, folder-new, folder-open-recent
+* Oxygen: actor, amarok_artist, document-open, document-open-data, document-open-folder, project-open, scriptopen, tag-folder, umbrello_diagram_usecases, user, user-identity, user-properties, view-media-artist, view-process-own
+
+------------------
+16*16-48*48 pixels
+------------------
+* Oxygen: debug-run* (all)
+
+---------------------
+22*22 pixels and over
+---------------------
+* Crystal Project (modified): mail-mark-important, mail-mark-unread-new, mail-meeting-request-reply, mail-unread-new
+* Crystal Project + NuoveXT 2 (combined icon elements): mail-forward, mail-forwarded, mail-forwarded-replied, mail-replied, mail-reply-all, mail-reply-sender.
+* Crystal Project + Oxygen (combined icon elements): mail-flag
+* Oxygen: gnumeric-column-hide, gnumeric-column-unhide, gnumeric-row-hide, gnumeric-row-unhide, gnumeric-visible, hide-table-column, hide-table-row, hint, layer-visible-on, layer-visible-off, password-show-off, password-show-on, quickview, show-table-column, show-table-row, speaker, view-visible, visibility; the following icons from 48*48 pixels upwards: document-open, document-open-data, document-open-folder, project-open, scriptopen, tag-folder
+
+---------------------
+32*32 pixels and over
+---------------------
+* Crystal Clear + NuoveXT 2 (combined icon elements): window-maximize, window-minimize, window-restore
+* Crystal Project (modified): mail-mark-read, mail-read
+* NuoveXT 2: format-* (all), list-remove
+* Oxygen (modified): group, meeting-attending, resource-group, system-users, user-group-properties, view-process-users
+
+---------------------
+48*48 pixels and over
+---------------------
+* Crystal Clear + Crystal Project (combined icon elements): resource-calendar-child, view-calendar-day, view-calendar-month, view-calendar-upcoming-days, view-calendar-week, view-calendar-workweek, view-calendar, view-pim-calendar, view-resource-calendar
+* Crystal Clear + Crystal Project + NuoveXT (combined icon elements): view-calendar-tasks
+* Crystal Clear + Crystal Project + NuoveXT 2 (combined icon elements): resource-calendar-child-insert, resource-calendar-insert
+* Crystal Project + NuoveXT 2 (combined icon elements): action-albumfolder-importdir2, albumfolder-importdir, albumfolder-new, archive-insert-directory, folder-add, folder-new, folder-open-recent, go-parent-folder
+* Crystal Project + Oxygen (combined icon elements): folder-sync, view-list-details, view-list-tree
+* NuoveXT 2 (modified): menu_new, menu_new_sep, sort-name, view-sort-ascending-name, view-sort-descending-name
+* NuoveXT 2 + Oxygen: action-albumfolder-importdir2, albumfolder-importdir, albumfolder-new, archive-insert-directory, folder-add, folder-new, folder-open-recentcloud-download, playlist-sort, sort_incr, view-sort, view-sort-ascending, view-sort-descending
+* Oxygen (modified): actor, amarok_artist, umbrello_diagram_usecases, user, user-identity, user-properties, view-media-artist, view-process-own
+* Webtoys: pin, window-pin
+
+---------------------
+64*64 pixels and over
+---------------------
+* NuoveXT 2 + Oxygen: debug-run-* (all)
+
+--------------
+All icon sizes
+--------------
+* Crystal Clear: configure, configure-shortcuts, view-dual-symbolic, view-close, view-split-left-right, view-split-top-bottom, window
+* Crystal Clear (modified): tab-duplicate, view-file-columns, window-duplicate
+* Crystal Clear + Crystal Project (combined icon elements): view-left-close, view-right-close
+* Crystal Clear + NuoveXT 2 (combined icon elements): gtk-execute, swap-panels, system-run, tab-detach, tab-new, view-fullscreen, view-process-system, view-right-new, window-new
+* Crystal Clear + Oxygen (combined icon elements): amarok_playlist, view-choose, view-media-lyrics, view-media-playlist, view-sidetree
+* Crystal Project: accept_signal, akonadi-phone-home, albumfolder-user-trash, application-exit, application-menu, bookmark-toolbar, bookmarks, bookmarks-organize, bqm-remove, bqm-rmqueue, chronometer, chronometer-lap, chronometer-pause, chronometer-start, delete, dialog-cancel, dialog-close, dialog-object-properties, document-decrypt, document-duplicate, document-encrypt, document-encrypted, document-properties, documentinfo, document-save, document-save-all, document-save-as, draw-highlight, edit-bomb, edit-clear, edit-copy, edit-cut, edit-delete, edit-duplicate, entry-delete, edit-find, exifinfo, favorite, format-border-* (all), games-hint, games-config-board, games-hint, geany-save-all, globe, go-home, gtk-cancel, gtk-close, gtk-connect, gtk-disconnet, gtk-floppy, gtk-no, gtk-properties, help-about, help-contents, help-contextual, help-donate, help-feedback, help-hint, help-latex, help-keyboard-shortcuts, help-whatsthis, kdenlive-select-images, kdocumentinfo, knotes-alarm, knotes_delete, kontes_close, kt-encrypted, kt-info-widget, love, love-amarok, mail-attachment, mail-deleted, media-floppy, modified, network-connect, network-disconnet, new-audio-alarm, notification, overexposure, preferences-other, process-stop, quickopen, star-new-symbolic, star-shape, step_object_Tracer, system-log-out, system-reboot, system-save-session, system-shutdown, system-suspend, system-suspend-hibernate, system-switch-user, tab-close, tab-close-other, tag-properties, taxes-finances, tools-report-bug, usermenu-delete, view-calendar-agenda, view-financial-account-cash, view-pim-news, window-close, quickwizard
+* Crystal Project (modified): adjusthsl, atmosphere, bookmark-edit, cell_edit, color-management, colormanagement, color-profile, document-open-remote (from 48*48 pixels upwards), document-preview-archive, edit-entry, edit-find-mail, edit-find-project, edit-find-user, editimage, edit-map, editor, edit-rename, edit-symbolic, edit-table-delete-* (all), edit-table-insert-* (all), edittext, entry-edit, file-search-symbolic, filter-symbolic, gnumeric-autofilter, gnumeric-autofilter-delete, gnumeric-link-edit, gnumeric-link-email, group-edit, gtk-edit, kdenlive-lock, kdenlive-unlock, lock, mail-encrypted* (all), mail-message-new, mail-queue, mail-queued, mail-mark-unread, mail-message, mail-unread, media-track-edit-amarok, notification-disabled, notifications-disabled, object-locked, object-unlocked, open-for-editing, projectgrep, news-unsubscribe, search, skrooge_credit_card, system-search, unlock, view-filter, view-financial-account-cash-closed, view-financial-account-credit-card, view-list-icons, view-pim-mail
+* Crystal Project + Gnome (combined icon elements): gnumeric-link-delete, kdenlive-hide-audio, player-volume-muted, remove-link
+* Crystal Project + NuoveXT (combined icon elements): document-print-preview, mail-mark-notjunk, news-subscribe
+* Crystal Project + NuoveXT 2 (combined icon elements): archive-extract, archive-insert, archive-remove, bookmark-add-symbolic, bookmark-new, color-mode-hue-shift-negative, color-mode-hue-shift-positive, document-close, document-edit-decrypt-verify, document-edit-verify, document-open, document-preview, edit-find-replace, font-disable, kt-add-filters, kt-remove-filters, preview, project-archive, quickopen-file, window-new
+* Crystal Project + Oxygen (combined icon elements): amarok_cart_add, amarok_cart_remove, amarok_cart_view, bookmark-new-list, bookmark-remove, delete-comment, edit-clear-all, gnumeric-comment-delete, gtk-clear, im-kick-user, mail-message-new-list, notification-active, system-lock-screen, user-group-delete
+* Crystal Project + Victory (combined icon elements): dashboard-show
+* CrystalSVG: tools
+* Faenza + Oxygen (combined icon elements): media-* (all, except media-floppy and media-track-edit-amarok)
+* Fluent Emoji: contrast, hand, transform-browse, widget-alternatives
+* Gnome: add-subtitle, document-share, extension-symbolic, kdenlive-show-audio, kt-plugins, libpeas-plugin, plugins, mail-mark-junk
+* Gnome (modified): edit-link, gnumeric-link-add, insert-link, link
+* Gnome + Oxygen: player-volume
+* Webtoys: documentation
+* McDo Design: addressbook-details, compass, food, rss, tag-addressbook, view-calendar-journal, view-pim-journal
+* McDo Design + NuoveXT 2 (combined icon elements): address-book-new, journal-new
+* Nova7: character-set, view-pages-continuous, view-pages-facing, view-pages-facing-first-centred, view-pages-overview, view-pages-single
+* NuoveXT: answer, answer-correct, checkbox, checkmark, document-print, document-print-frame, dialog-ok, dialog-ok-apply, dvips, games-endturn, gtk-apply, gtk-ok, gtk-yes, kt-check-data, object-select-symbolic.png, pdftex, view-history, wizard-pstools
+* NuoveXT + NuoveXT 2 (combined icon elements): document-print-direct, font-enable, font-select-symbolic
+* NuoveXT 2: accept_time_event, akonadiconsole, amarok_clock, amarok_scripts, appointment-new, change-date-symbolic, clock, clock-large, chronometer-reset, dialog-scripts, document-new, document-open-recent-symbolic, draw-freehand, edit-paste, edit-redo, edit-redo-rtl-symbolic, edit-redo-symbolic-rtl, edit-undo, edit-undo-history, edit-undo-rtl-symbolic, edit-undo-symbolic-rtl, edit-select-all, format-indent-less-* (all), format-indent-more-*  (all), format-text-bold, format-text-italic, format-text-strikethrough, gnumeric-pagesetup-hf-time, internet-services, internet-amarok, kt-bandwidth-scheduler, list-add, scriptnew, shallow-history, svn-update, smallclock, tag-recents, vcs-pull, view-services-scripted-amarok
+* NuoveXT 2 (modified): albumfolder-importimages, arrow-* (all), document-edit, document-edit-decrypt, document-edit-encrypt, document-export* (all), document-import* (all), document-multiple, document-open-recent, document-replace, document-revert, download, download-amarok, download-later, dvipng, edit-download, edit-move, fileview-preview, filmgrain, font, format-text-subscript, format-text-superscript, games-config-background, get-hot-new-stuff, go-* (all, excepting 'go-home'), kdenlive-show-video, kdenlive-show-videothumb, kt-set-max-download-speed, mail-download-later, mail-download-now, mail-receive, photo, photos-amarok, videoclip-amarok, view-preview, viewimage, x-shape-image
+* NuoveXT 2 + Oxygen (combined icon elements): adjustlevels, adjustrgb, albumfolder-properties, align-horizontal-node, align-vertical-node, configure_kile, configure_project, configure-toolbars, contact-new, document-edit-sign, document-edit-sign-encrypt, edit-clear-history, format-add-node, format-insert-node, irc-join-channel, games-config-custom, games-config-options, gtk-preferences, node-add, object-rotate-left, object-rotate-right, preferences-system-symbolic, settings-configure, svn-commit, svn-update, tag-new, user-group-new, vcs-update-cvs-cervisia, viewpdf
+* Nuvola: acrobat, edit-image, tool_imageeffects
+* Nuvola (modified by Bayo - GPL 3): formula, gnumeric-formulaguru, x-shape-formula
+* Oxygen: activities, activity-fork, add-placemark, align (all), amarok_playcount, amarok_playlist_refresh, arrow, call-end-symbolic, call-start, call-stop, call-voicemail, callout-shape, code-* (all), color-fill, color-picker* (all), color-select-symbolic, continue-data-project, cursor-arrow, dialog-messages, distribute-* (all), document-sign, draw-arrow-* (all), draw-bezier-curves, draw-brush, draw-circle, draw-cross, draw-donut, draw-ellipse, draw-eraser, draw-halfcircle-* (all), draw-line, draw-path, draw-polygon, draw-polyline, draw-rectangle, draw-spiral, draw-square-inverted-corners, draw-star, draw-text, draw-triangle* (all), edit-clear-locationbar* (all), edit-clear-rtl-symbolic, edit-clear-symbolic-rtl, edit-comment, edit-guides, edit-image-face-detect, edit-image-face-recognize, edit-image-face-show, edit-node, edit-select, edit-table-cell-merge, edit-table-cell-split, filename-comment-amarok, fill-color, flag (all), followmouse, fork, format-break-node, format-connect-node, format-disconnect-node, format-fill-color, format-join-node, format-line-spacing* (all), format-list-ordered, format-list-unordered, format-remove-node, format-stroke-color, format-text-color, games-achievements, games-config-background, games-config-custom, games-config-options, games-config-theme, games-config-tiles, games-difficult, games-highscores, games-solve, im-* (instant messaging icons, all with the exception of im-kick-user), gnumeric-column-hide, gnumeric-comment-add, gnumeric-column-unhide, gnumeric-row-hide, gnumeric-row-unhide, gnumeric-visible, go-jump, go-jump-declaration, go-jump-definition, go-next-context, go-next-use, go-previous-context, go-previous-use, hide_table_column, hide_table_row, hint, image-crop-symbolic.png, irc-close-channel, irc-operator, irc-remove-operator, irc-unvoice, irc-voice, key-enter, kmousetool_on, kstars_flag, label, label-amarok, labplot-cursor-arrow, layer-visible-on, layer-visible-off, mail-invitation, mail-send, mail-signature-unknown, mail-signed-* (all), mail-task, mail-mark-task, mail-thread-watch, measure, milestone, node-break, node-delete-segment, node-delete, node-join-segment, node-join, object-flip-horizontal, object-flip-vertical, office-chart-* (all), output_win, page-2sides, page-3sides, page-4sides, page-simple, page-zoom, password-show-off, password-show-on, pdf-annotations, pointer, preferences-indicator-amarok, quickview, refresh-structure, roll, routeplanning, run-build* (all), select, select-rectangular, services, shapes, show-menu, show-table-column, show-table-row, shuffle, special-effects-symbolic, system-* (all), tag, snap-* (all), split, stroke-* (all), text-field, text-frame-link, text-frame-unlink, tool-pointer, tools-media-* (all), tools-rip-* (all), tools-wizard, transform-* (all), tool-review, view-barcode, view-calendar-holiday, view-certificate* (all), view-conversation-balloon, view-currency-list, view-financial-list, view-hidden, view-media-visualization, view-multiple-objects, view-object-histogram-linear, view-object-histogram-logarithmic, view-pim-notes, view-pim-summary, view-pim-tasks, view-pim-tasks-pending, view-presentation, view-process-all, view-process-all-tree, view-refresh, view-statistics, view-stock-account, view-table-of-contents* (all), view-visible, viewlog,  visibility, x-clementine-shuffle, zoom-* (all excepting the zoom-fit icons);
+* Oxygen (modified): action-rss_tag, adjustcurves, aggregation, amarok_change_language, colors-chroma* (all), feed-subscribe, filename-filetype-amarok, gnumeric-object-label, label, label-amarok, language-chooser, languages, merge, question, system-upgrade, umbrello_diagram_usecase, tag, view-app-grid-symbolic, view-calendar-birthday, view-grid, view-group, view-media-track, view-pim-contacts, zoom-fit-* (all).
+* Oxylite: LGPL-3.0-or-later - filename-bpm-amarok, kt-speed-limits, speedometer
+* Scuba Diving Icons: anchor, step_object_Anchor
+* UltraBuuf: animal, dvisearch, latex, texlion, viewdvi
+* Vista Business Icons: view-bank
+
+Note: the following icon elements were redrawn for greater clarity:
+- 16*16 pixel backdrop of document icons, printer;
+- 16*16, 22*22 and 32*32 pixel simplified green arrows, 'plus' and 'minus' signs, blue dots in view* icons, image in albumfolder-importimages.
+
+
+APPS
+
+------------------
+16*16-32*32 pixels
+------------------
+* Crystal Project + Oxygen (combined icon elements): plasmavault
+
+
+---------------------
+48*48 pixels and over
+---------------------
+* Crystal Project (modified): plasmavault
+
+--------------
+All icon sizes
+--------------
+
+* Choqok: Choqok
+* Crystal Clear: kmail, knotes, kteatime, ktouch, kwalletmanager, kwalletmanager2, usb-creator-kde
+* Crystal Project: accessories-calculator, apport, ark, artikulate, assistant, atlantik, atlantikdesigner, basket, blender, breeze-settings, calindori, clamtk, crossover, cxmenu-cxoffice-0-crossover, daemon, firewall-config, gimp, gparted, help-browser, hwinfo, kalarm, kbackgammon, kblocks, kcalc, kdevelop, kfind, kfloppy, kfouleggs, kfourinline, kgoldrunner, kgpg, kjumpingcube, klickety, klines, kmahjongg, kmines, kmix, kmousetool, knavalbattle, kolf, kolourpaint, konqueror, konquest, konsole, kopete, kpat, kreversi, kronometer, ksame, kshisen, ksnakeduel, ksokoban, kspaceduel, kstars, ktimer, ktip, ktuberling, kwikdisk, mini.xterm, office-calendar, partitionmanager, plan, skanpage, skype, tixati, utilities-file-archiver, veracrypt, xine, xscreensaver, xterm
+* Crystal Project + LibreOffice: libreoffice-basic
+* Crystal Project + Google (Irina Blok) (combined icon elements): android-studio
+* Crystal Project + Oxygen (combined icon elements): baloo, libreoffice-chart
+* Darktable: darktable* (all)
+* Delft: desktop-environment-* (all)
+* Faenza: spectacle
+* Fluent Emoji: cuttlefish
+* FS Ubuntu Icons: audacity, audacious, clementine, firefox, firefox_firefox, google-chrome, pidgin, polly, steam, wine
+* G-Xiria: yast, yast-control-center
+* Handbrake: fr.handbrake.ghb, handbrake
+* Learning to fly: alien-arena, atomix, billard-gl, bleachbit, bluefish, bomber, brave-browser, celestia, cherrytree, claws-mail, cpu-x, dreamchess, duck-duck-go, emerald-theme-manager, emerald, epiphany, fifteenpuzzle, filezilla, fingerprint-gui, firefox-installer, fish, fluid, fprot, freemind, git, gmtp, google-earth, haruna, hydrogen, imagemagick, katomic, kmag, knights, ktnef, mame,e pychess, sunflow, vice-jz, vim, vuze, vuze-vs
+* Kompare: kompare
+* LibreOffice: libreoffice-base, libreoffice-calc, libreoffice-impress, libreoffice-main, libreoffice-math, libreoffice-startcenter
+* LibreOffice (modified): libreoffice-chart
+* McDo Design: accessories-dictionary, addressbook, kaddressbook
+* Mozilla (MPL2): thunderbird
+* NuoveXT: org.kde.skanlite, skanlite
+* NuoveXT 2: accessories-text-editor, internet-web-browser, klipper, kwrite, system-software-update, systemsettings, utilities-system-monitor, utilities-terminal
+* Nuvola: acroread, kbounce, kbruch, kcolorchooser, kmenuedit
+* OwTwo: chromium* (all), eclipse, featherpad, geany, kaccounts-nextcloud, kate, kvantum, mint* (all), nextcloud, org.chromium.Chromium, org.eclipse.* (all), org.telegram.desktop, telegram, tilix, Zoom
+* Oxygen: accessories-character-map, akregator, amarok, calligraauthor, calligraflow, calligrakexi, calligrasheets, calligrastage, calligrawords, digikam, dragonplayer, gwenview, graphics-viewer-document, hotspot, inkscape, internet-mail, internet-telephony, kblogger, kchart, kig, klipper, kontact, konversation, korg-todo, kplato, kpresenter, krita, ksudoku, ktorrent, kword, okular, org.inkscape.Inkscape.png, picmi, planner, telepathy-kde, utilities-log-viewer, xorg, yakuake, zanshin
+* Oxygen (modified): system-file-manager
+* Oxylite: public domain - cutecom; LGPL-2.0-or-later or CC-BY-SA-4.0 - CMakeSetup.svg, virtualbox; LGPL-3.0 - multimedia-volume-control; LGPL-3.0-or-later - synaptic, tor-browser, yumex; GPL-2.0-or-later - eog, gparted, vim, org.xfce.thunar, vlc, wireshark, wxHexEditor, tenacity; GPL-3.0 - linguist, mscore, designer-qt* (all); GPL-3.0-or-later - kicad
+* Shopping Bag (modified): muondiscover, plasmadiscover
+* Victory: baobab
+* Victory + NuoveXT 2 (combined icon elements): krdc, krfb
+* Victory + Oxygen (combined icon elements): ksnapshot
+* Victory + Oxygen + Google (Irina Blok) (combined icon elements): android-file-transfer 
+
+ 
+CATEGORIES
+
+------------------
+16*16-22*22 pixels
+------------------
+* Oxygen: applications-education-* (all)
+
+---------------------
+32*32 pixels and over
+---------------------
+* Oxygen (modified): applications-education-*
+
+--------------
+All icon sizes
+--------------
+* Crystal Project: applications-multimedia, applications-system, applications-utilities, applications-internet, applications-network
+* Gnome: applications-development
+* MiRa: applications-graphics
+* Oxygen (modified): applications-all
+* Oxygen: applications-education, applications-engineering, applications-games, applications-office, applications-other, applications-science
+
+
+DEVICES
+
+------------------
+16*16 pixels
+------------------
+* Nova7: cups, cupsprinter, printer, printer-network-symbolic
+
+------------------
+16*16-22*22 pixels
+------------------
+* Nuvola: drive-multipartition
+
+---------------------
+22*22 pixels and over
+---------------------
+NuoveXT: cups, cupsprinter, printer, printer-network-symbolic
+
+---------------------
+32*32 pixels and over
+---------------------
+* Crystal Project + Nuvola (combined icon elements): drive-multipartition
+
+--------------
+All icon sizes
+--------------
+* Cartoon Icons: audio-radio, radio
+* CPU - icon pack: cpu 
+* Crystal Clear: input-touchpad 
+* Crystal Project: battery, camera-video, computer, computer-laptop, drive-partition, media-flash-memory-stick, media-flash-smart-media, media-floppy, monitor, multimedia-player, network-modem, usbpendrive, video-display
+* Crystal Project (modified): phone, video-television
+* E-commerce and Business Icon Set (icons mirrored): multimedia-player-apple-ipod-touch-symbolic, phone-apple-iphone-symbolic, phone-symbolic, smartphone
+* Faenza: network-rj11-female, network-wired
+* Faenza (modified): network-rj45-female
+* FS Ubuntu Icons: network-bluetooth
+* Gnome: audio-input-microphone, audio-speakers-symbolic, camera-web, drive-multidisk, input-dialpad, input-tablet
+* Learning to fly: auth-fingerprint
+* NuoveXT: media-removable-symbolic, scanner
+* NuoveXT + Oxygen (combined icon elements): drive-optical 
+* NuoveXT 2: drive-harddisk-* (all except drive-harddisk-encrypted)
+* NuoveXT 2 (modified): drive-harddisk-encrypted, input-keyboard, input-keyboard-virtual-symbolic
+* Oxygen: audio-headphones, audio-headset, audio-input-line, camera-photo, media-flash, media-optical* (all), network-wireless
+* Oxylite: LGPL-3.0 - auth-sim, auth-smartcard, uninterruptable-power-supply; LGPL-3.0-or-later - auth-face, display-projector, drive-harddisk-solidstate, ebook-reader
+
+
+EMBLEMS
+
+
+------------
+16*16 pixels
+------------
+
+* Crystal Project: package-broken
+* Crystal Project + Oxygen (combined icon elements): vcs-added
+* Nova7: package-install, package-remove, unrequired
+* NuoveXT: checkmark, emblem-checked, emblem-success, installed
+* Oxygen: package-new
+
+------------------
+16*16-32*32 pixels
+------------------
+
+* Crystal Project + Nova7: emblem-photos-symbolic
+
+------------------
+16*16-48*48 pixels
+------------------
+
+Nova7: emblem-added
+
+------------
+22*22 pixels
+------------
+
+* Crystal Project + Nova7: package-remove
+
+------------------
+22*22-48*48 pixels
+------------------
+
+* Crystal Project + Nova7: package-install, unrequired, vcs-added
+
+---------------------
+32*32 pixels and over
+---------------------
+
+* Crystal Project + NuoveXT 2: package-remove
+
+---------------------
+48*48 pixels and over
+---------------------
+
+* Crystal Project + NuoveXT 2: emblem-photos-symbolic
+* NuoveXT 2: emblem-added
+
+---------------------
+64*64 pixels and over
+---------------------
+
+* Crystal Project + NuoveXT 2: package-install, unrequired, vcs-added
+* NuoveXT 2: emblem-added
+
+--------------
+All icon sizes
+--------------
+
+* Crystal Project: emblem-encrypted-locked, emblem-encrypted-unlocked, emblem-error, emblem-information, emblem-pause, emblem-symbolic-link, emblem-system-symbolic, emblem-unavailable, emblem-warning, rating
+* Crystal Project (modified): emblem-documents-symbolic, emblem-locked, emblem-readonly, emblem-unlocked, emblem-mounted, emblem-unmounted, noninstalled, package-available, rating-half, rating-half-rtl, rating-unrated
+* Crystal Project + Oxygen (combined icon elements): vcs-conflicting, vcs-locally-modified, vcs-locally-modified-unstaged, vcs-normal, vcs-removed, vcs-update-required
+* Gnome: emblem-shared, emblem-videos-symbolic
+* NuoveXT: emblem-default-symbolic, emblem-ok-symbolic
+* NuoveXT 2: package-installed-outdated
+* Oxygen: emblem-new
+* Oxygen (modified): emblem-important, emblem-information, emblem-music-symbolic, emblem-synchronizing-symbolic, emblem-question
+
+
+EMOTES
+* Gnome: all with the exception of food-cake.
+* MiRa: food-cake
+
+
+MIMETYPES
+
+------------------
+16*16-32*32 pixels
+------------------
+
+* CrystalSVG:
+
+- Signatures: application-pgp, application-pgp-signature, application-pkcs7-signature
+
+* Crystal Project + Nova7:
+
+- Encrypted files: application-pgp-encrypted, encrypted
+
+- Python: application-x-python-bytecode, text-x-python, text-x-python3
+
+- Web formats: application-relaxng, application-x-marble, application-x-mimearchive, application-x-mswinurl, application-x-qet-element, application-x-qet-project, application-xhtml+xml, libreoffice-oasis-web-template, text-html, viewhtml
+
+* Elementary + Nova7:
+
+- Ruby: application-x-ruby
+
+* Fluent Emoji + Nova7:
+
+- Perl: application-x-perl
+
+* Fugue + Nova7 (combined icon elements):
+- Java: application-javascript, application-x-java, application-x-java-applet, application-x-javascript, text-javascript, text-x-java, text-x-java-source, text-x-javascript
+
+* Gnome:
+
+- Disk images: application-x-cd-image, application-x-iso, application-x-gamecube-rom
+
+* Learning to fly: application-x-ms-dos-executable
+
+* Learning to Fly + Nova7: application-x-krita, image-x-krita, image-x-psd, image-x-psdimage-x-psd
+
+* Nova7:
+
+- Calendars: text-calendar, text-vcalendar, x-office-calendar
+
+- Documents: application-msword, application-msword-template, application-rtf, application-sxw, application-vnd.ms-word.document.macroenabled.12, application-vnd.ms-word, application-vnd.ms-word.template.macroenabled.12, application-vnd.oasis.opendocument.text-master, application-vnd.oasis.opendocument.text-template, application-vnd.oasis.opendocument.text, application-vnd.openxmlformats-officedocument.wordprocessingml.document, application-vnd.openxmlformats-officedocument.wordprocessingml.template, application-vnd.sun.xml.writer.global, application-vnd.sun.xml.writer, application-vnd.sun.xml.writer.template, application-vnd.wordperfect, application-wps-office.doc, application-wps-office.docx, application-wps-office.dot, application-wps-office.docx, application-x-applix-word, application-x-kword, application-x-mswrite, libreoffice-master-document, libreoffice-oasis-text, libreoffice-text, odf, text-markdown, text-x-markdown, x-office-document
+
+- Empty and unknown files: application-x-zerosize, none, unknown
+
+- Images: application-vnd.oasis.opendocument.image, image, image-bmp, image-gif, image-ico, image-jpeg, image-jpeg2000, image-tiff, image-x-compressed-xcf, image-x-compressed-xcf, image-x-generic,  image-x-portable-bitmap, image-x-tga, image-x-tga, image-x-win-bitmap, image-x-win-bmp, image-x-xcf
+
+- Printer: application-postscript, viewps
+
+- Scripts: application-json, application-x-awk, application-x-executable-script, application-x-shellscript, text-css, text-x-script, text-x-shellscript, text-x-tcl
+
+- Spreadsheets: application-vnd.ms-excel,  application-vnd.ms-excel.addin.macroenabled.12, application-vnd.ms-excel.sheet.binary.macroenabled.12, application-vnd.ms-excel.sheet.macroenabled.12, application-vnd.ms-excel.template.macroenabled.12, application-vnd.oasis.opendocument.spreadsheet, application-vnd.oasis.opendocument.spreadsheet-template, application-vnd.openxmlformats-officedocument.spreadsheetml.sheet, application-vnd.openxmlformats-officedocument.spreadsheetml.template, application-vnd.stardivision.calc, application-vnd.sun.xml.calc, application-vnd.sun.xml.calc.template, application-wps-office.xls, application-wps-office.xlsx, application-wps-office.xlt, application-wps-office.xltx, application-x-applix-spreadsheet, application-x-gnumeric, application-x-quattropro, application-x-siag, libreoffice-oasis-spreadsheet, libreoffice-oasis-spreadsheet, libreoffice-oasis-spreadsheet-template, libreoffice-spreadsheet, libreoffice-spreadsheet-template, x-office-spreadsheet
+
+* Nova7 + Crystal Project (combined icon elements):
+
+- Credits: text-x-authors, text-x-credits
+
+- Information: text-x-nfo, text-x-readme, text-x-texinfo
+
+* Nova7 + Oxygen (combined icon elements):
+
+- Libraries: application-octet-stream, application-x-m4, application-x-object, application-x-python-bytecode, application-x-sharedlib, application-x-sharedlib, text-x-makefile
+
+- Plasma: application-x-plasma
+
+- Vector graphics: application-illustrator, application-vnd.oasis.opendocument.drawing, application-vnd.oasis.opendocument.graphics, application-vnd.stardivision.draw, application-vnd.sun.xml.draw, application-x-kontour, application-x-sif, application-x-tgif, application-x-wmf, image-svg+xml-compressed, image-svg+xml, image-x-emf, image-x-eps, image-x-svg+xml, image-x-vnd.trolltech.qpicture, image-x-wmf, image-x-xfig, libreoffice-drawing, libreoffice-oasis-drawing, x-office-drawing
+
+* Nova7 + Tango (combined icon elements): text-x-copying
+
+* Nuvola + Oxygen (combined icon elements):
+
+- PDF: application-pdf, viewpdf
+
+* Oxygen (modified):
+
+- Miscellaneous: application-octet-stream, application-x-object
+
+---------------------
+48*48 pixels and over
+---------------------
+
+* Crystal Project + Learning to fly (combined icon elements): application-x-ms-dos-executable
+
+* Crystal Project + NuoveXT 2 (combined icon elements):
+
+- Encrypted files: application-pgp-encrypted, encrypted
+
+- Information: text-x-nfo, text-x-readme, text-x-texinfo
+
+- Java: application-javascript, application-x-java, application-x-java-applet, application-x-javascript, text-javascript, text-x-java, text-x-java-source, text-x-javascript
+
+- Python: application-x-python-bytecode, text-x-python, text-x-python3
+
+- Signatures: application-pgp, application-pgp-signature, application-pkcs7-signature
+
+- Web formats: application-relaxng, application-x-marble, application-x-mimearchive, application-x-mswinurl, application-x-qet-element, application-x-qet-project, application-xhtml+xml, libreoffice-oasis-web-template, text-html, viewhtml
+
+* Crystal Project + Oxygen (combined icon elements):
+
+- Miscellaneous: application-octet-stream, application-x-object
+
+* Elementary + NuoveXT 2:
+
+- Ruby: application-x-ruby
+
+* Fluent Emoji + NuoveXT 2:
+
+- Perl: application-x-perl
+
+* Learning to Fly + NuoveXT 2: application-x-krita, image-x-krita, image-x-psd, image-x-psdimage-x-psd
+
+* NuoveXT:
+
+- Printer: application-postscript, viewps
+
+* NuoveXT + NuoveXT 2 (combined icon elements):
+
+- Spreadsheets: application-vnd.ms-excel,  application-vnd.ms-excel.addin.macroenabled.12, application-vnd.ms-excel.sheet.binary.macroenabled.12, application-vnd.ms-excel.sheet.macroenabled.12, application-vnd.ms-excel.template.macroenabled.12, application-vnd.oasis.opendocument.spreadsheet, application-vnd.oasis.opendocument.spreadsheet-template, application-vnd.openxmlformats-officedocument.spreadsheetml.sheet, application-vnd.openxmlformats-officedocument.spreadsheetml.template, application-vnd.stardivision.calc, application-vnd.sun.xml.calc, application-vnd.sun.xml.calc.template, application-wps-office.xls, application-wps-office.xlsx, application-wps-office.xlt, application-wps-office.xltx, application-x-applix-spreadsheet, application-x-gnumeric, application-x-quattropro, application-x-siag, libreoffice-oasis-spreadsheet, libreoffice-oasis-spreadsheet, libreoffice-oasis-spreadsheet-template, libreoffice-spreadsheet, libreoffice-spreadsheet-template, x-office-spreadsheet
+
+* NuoveXT 2:
+
+- Calendars: text-calendar, text-vcalendar, x-office-calendar
+
+- Documents: application-msword, application-msword-template, application-rtf, application-sxw, application-vnd.ms-word.document.macroenabled.12, application-vnd.ms-word, application-vnd.ms-word.template.macroenabled.12, application-vnd.oasis.opendocument.text-master, application-vnd.oasis.opendocument.text-template, application-vnd.oasis.opendocument.text, application-vnd.openxmlformats-officedocument.wordprocessingml.document, application-vnd.openxmlformats-officedocument.wordprocessingml.template, application-vnd.sun.xml.writer.global, application-vnd.sun.xml.writer, application-vnd.sun.xml.writer.template, application-vnd.wordperfect, application-wps-office.doc, application-wps-office.docx, application-wps-office.dot, application-wps-office.docx, application-x-applix-word, application-x-kword, application-x-mswrite, libreoffice-master-document, libreoffice-oasis-text, libreoffice-text, odf, text-markdown, text-x-authors, text-x-credits, text-x-markdown, x-office-document
+
+- Empty and unknown files: application-x-zerosize, none, unknown
+
+- Images: application-vnd.oasis.opendocument.image, image, image-bmp, image-gif, image-ico, image-jpeg, image-jpeg2000, image-tiff, image-x-compressed-xcf, image-x-compressed-xcf, image-x-generic,  image-x-portable-bitmap, image-x-tga, image-x-tga, image-x-win-bitmap, image-x-win-bmp, image-x-xcf
+
+* NuoveXT 2 (modified):
+
+- Scripts: application-json, application-x-awk, application-x-executable-script, application-x-shellscript, text-css, text-x-script, text-x-shellscript, text-x-tcl
+
+* NuoveXT 2 + Oxygen (combined icon elements):
+
+- Libraries: application-octet-stream, application-x-m4, application-x-object, application-x-python-bytecode, application-x-sharedlib, application-x-sharedlib, text-x-makefile
+
+- Plasma: application-x-plasma
+
+- PDF: application-pdf, viewpdf
+
+- Vector graphics: application-illustrator, application-vnd.oasis.opendocument.drawing, application-vnd.oasis.opendocument.graphics, application-vnd.stardivision.draw, application-vnd.sun.xml.draw, application-x-kontour, application-x-sif, application-x-tgif, application-x-wmf, image-svg+xml-compressed, image-svg+xml, image-x-emf, image-x-eps, image-x-svg+xml, image-x-vnd.trolltech.qpicture, image-x-wmf, image-x-xfig, libreoffice-drawing, libreoffice-oasis-drawing, x-office-drawing
+
+* NuoveXT 2 + Tango (combined icon elements): text-x-copying
+
+* Oxygen:
+
+- Audio: audio-midi, audio-prs.sid
+
+- Disk images: application-x-gamecube-rom
+
+* Oxygen (modified):
+
+- Disk images: application-x-cd-image, application-x-iso
+
+
+
+--------------
+All icon sizes
+--------------
+
+* Crystal Project:
+
+- Archives: application-gzip, application-vnd-rar, application-vnd.rar, application-x-7z-compressed, application-x-ace, application-x-ar, application-x-arc, application-x-archive, application-x-arj, application-x-bzdvi, application-x-bzip, application-x-bzip-compressed-tar, application-x-bzip2, application-x-compress, application-x-compressed-tar, application-x-cpio, application-x-deb, application-x-gzdvi, application-x-gzip, application-x-gzip, application-x-gzpostscript, application-x-java-archive, application-x-lha, application-x-lzma-compressed-tar, application-x-lzop, application-x-pak, application-x-rar, application-x-rdata, application-x-source-rpm, application-x-tar, application-x-tarz, application-x-theme, application-x-tzo, application-x-xz-pkg, application-x-zip-compressed-fb2, application-x-zoo, application-zip, package-x-generic.
+
+- Data services: application-atom+xml, application-rss+xml, text-x-opml, text-x-opml+xml
+
+- Keys: application-pgp-keys, application-pkcs7-mime, application-x-pem-key
+
+- Miscellaneous: application-x-bittorrent, application-x-executable
+
+* Crystal Project (modified):
+
+- Appimages: application-vnd.appimage, application-x-iso9660-appimage
+
+- E-mail/messages: message, message-x-gnu-rmail, message-rfc822
+
+- Presentations: application-vnd.ms-powerpoint, application-vnd.ms-powerpoint.addin.macroenabled.12, application-vnd.ms-powerpoint.presentation.macroenabled.12, application-vnd.ms-powerpoint.slide.macroenabled.12, application-vnd.ms-powerpoint.slideshow.macroenabled.12, application-vnd.ms-powerpoint.template.macroenabled.12, application-vnd.oasis.opendocument.presentation, application-vnd.oasis.opendocument.presentation-template, application-vnd.openxmlformats-officedocument.presentationml.presentation, application-vnd.sun.xml.impress, application-vnd.sun.xml.impress.template, application-wps-office.pot, application-wps-office.potx, application-wps-office.ppt, application-wps-office.pptx, libreoffice-oasis-presentation, libreoffice-oasis-presentation-template, libreoffice-presentation, libreoffice-presentation-template, x-office-presentation
+
+* Delft:
+
+- Desktops: application-x-desktop* (all)
+
+* Gnome:
+
+- Colour profiles: application-vnd.iccprofile, application-x-it87, application-x-kcsrc
+- Film: video-* (all)
+
+* Nintendo DS Rom Icons (modified): application-x-nintendo-ds-rom
+
+* Nintendo Rom icons (modified): application-vnd.nintendo.snes.rom, application-x-gameboy-rom, application-x-gba-rom, application-x-n64-rom, application-xnes-rom
+
+* NuoveXT 2 (modified): application-x-partial-download
+
+* Nuvola (modified by Bayo - GPL 3):
+
+- Formulae: application-vnd.oasis.opendocument.formula, application-vnd.oasis.opendocument.formula-template, application-x-kformula
+
+* Oxygen:
+
+- Certificates: application-certificate, application-pkcs12, application-pkix-cerl, application-pkix-cert, application-x-pkcs7-certificates, application-x-pkcs12, application-x-x509-ca-cert, application-x-x509-user-cert
+
+- Miscellaneous: application-epub+zip
+
+* Oxygen (modified):
+
+- Music: application-ogg.png, application-x-cda.png, application-x-cue, audio-ac3.png, audio-flac.png, audio-mp2.png, audio-mp3.png, audio-mp4.png, audio-mpeg.png, audio-vn.rn-realmedia.png, audio-x-adpcm.png, audio-x-aiff.png, audio-x-flac.png, audio-x-flac+ogg.png, audio-x-generic.png, audio-x-monkey.png, audio-x-mp2.png, audio-x-mpeg.png, audio-x-speex+ogg.png, audio-x-wav.png
+
+* Oxylite:
+
+- Packages: LGPL-2.0-or-later or CC-BY-SA-4.0 - android-package-archive, application-vnd.android.package-archive, application-vnd.flatpak, application-x-msi, application-x-rpm; LGPL-3.0-or-later - application-vnd.debian.binary-package, application-x-deb
+
+
+
+PLACES
+
+------------------
+16*16-22*22 pixels
+------------------
+* Basic folder icon (blue) modified from Oxygen; all colour variations recoloured for this project.
+
+------------------
+16*16-32*32 pixels
+------------------
+* Basic folder icon (blue) modified from Oxygen; all colour variations recoloured for this project.
+* Crystal Project + Oxygen (combined icon elements): favorites, folder-appimage, folder-blender, folder-bookmark, folder-build, folder-calculate, folder-decrypted, folder-design, folder-desktop, folder-encrypted, folder-favorites, folder-important, folder-locked, folder-mail, folder-network, folder-paint, folder-public, folder-publicshare, folder-remote, folder-saved-search-symbolic, folder-templates, folder-trash, folder-unlocked, org.xfce.gigolo
+* Diagram v2 + Oxygen (combined icon elements): folder-extension
+* Flatpak + Oxygen (combined icon elements): folder-flatpak
+* Fluent Emoji + Oxygen (combined icon elements): folder-docker, folder-txt, folder-text
+* Fugue Icons + Oxygen (combined icon elements): folder-android, folder-book, folder-cloud, folder-database, folder-dropbox, folder-gdrive, folder-java, folder-library, folder-onedrive, folder-owncloud
+* Git Logo + Oxygen (combined icon elements): folder-git
+* Gnome + Oxygen (combined icon elements): folder-crash, folder-deb, folder-development
+* Godot + Oxygen (combined icon elements): folder-godot
+* Nova7 + Oxygen (combined icon elements): folder-documents, folder-download, folder-downloads
+* NuoveXT + Oxygen (combined icon elements): folder-print, folder-recent, folder-temp
+* NuoveXT 2 + Oxygen (combined icon elements): folder_html, folder-html, folder-image, folder-images, folder-image-people, folder-picture, folder-pictures, folder-script, folder-tar, folder-video, folder-videos
+* Oxygen (modified): folder-activities, folder-chart, folder-comic, folder-games, folder-language, folder-music, folder-open, folder-presentation, folder-sound, library-music
+
+---------------------
+48*48 pixels and over
+---------------------
+* Basic folder icon (blue, green, red, yellow and open varieties): Crystal project; other colour variations recoloured for this project.
+* Crystal Project (modified): favorites, folder-appimage, folder-blender, folder-bookmark, folder-build, folder-calculate, folder-decrypted, folder-desktop, folder-design, folder-encrypted, folder-favorites, folder-important, folder-java, folder-locked, folder-mail, folder-network, folder-paint, folder-saved-search-symbolic, folder-templates, folder-trash, folder-unlocked
+* Crystal Project + Android Icon Pack (combined icon elements): folder-android
+* Crystal Project + Debian (combined icon elements): folder-deb
+* Crystal Project + Diagram v2 (combined icon elements): folder-extension
+* Crystal Project + E-commerce and business icon set (combined icon elements): folder-chart, folder-library
+* Crystal Project + Flatpak (combined icon elements): folder-flatpak
+* Crystal Project + Gnome (combined icon elements): folder-crash, folder-development
+* Crystal Project + Godot (combined icon elements): folder-godot
+* Crystal Project + Fluent Emoji (combined icon elements): folder-docker, folder-txt, folder-text
+* Crystal Project + Learning to fly (combined icon elements): folder-git
+* Crystal Project + My Secret (combined icon elements): folder-book
+* Crystal Project + NuoveXT (combined icon elements): folder-locked, folder-print, folder-recent, folder-temp, folder-unlocked
+* Crystal project + NuoveXT 2 (combined icon elements): folder-documents, folder-download, folder-downloads, folder_html, folder-html, folder-image, folder-images, folder-picture, folder-pictures, folder-public, folder-publicshare, folder-remote, folder-script, folder-tar, folder-video, folder-videos
+* Crystal Project + NuoveXT 2 + figures from 'Venere e le tre Grazie offrono doni a una giovane' by Sandro Botticelli (1445-1510): folder-image-people
+* Crystal Project + Oxygen (combined icon elements): folder-activities, folder-cloud, folder-comic, folder-database, folder-dropbox, folder-games, folder-gdrive, folder-language,folder-music, folder-onedrive, folder-owncloud, folder-presentation, folder-sound, library-music
+
+--------------
+All icon sizes
+--------------
+* Crystal Project: desktop, mail-message, user-desktop, user-home, user-trash, user-trash-full
+* Crystal Project + NuoveXT 2 (combined icon elements):  network-workgroup
+* Crystal Project + Oxygen (combined icon elements): network-server, network-server-database
+* NuoveXT + Oxygen (combined icon elements): mail-folder-sent
+* NuoveXT 2 + Oxygen (combined icon elements): mail-folder-inbox, mail-folder-outbox
+* OwTwo: archlinux-logo, debian-logo, distributor-logo-* (all), fedora-logo, linux-mint-logo, mageia-logo, manjaro-logo, opensuse-logo, ubuntu-logo
+* Oxygen: repository, server-database
+* Oxygen (modified): certificate-server, user-identity, start-here-kde, start-here-kde-plasma
+
+Note: the following icon elements were redrawn for greater clarity:
+- 16*16 and 22*22 appimage and pixel printer
+- 16*16, 22*22 and 32*32 pixel simplified green arrows
+- 16*16, 22*22 and 32*32 pixel simplified depictions of film (see folder-video and folder-videos)
+- 16*16, 22*22 and 32*32 pixel simplified depictions of photos (see folder-image, folder-images and folder-image-people)
+
+PREFERENCES
+
+------------------
+16*16-22*22 pixels
+------------------
+* Oxygen: system-users, yast-users
+
+------------------
+16*16-32*32 pixels
+------------------
+* Oxygen: preferences-desktop-user, preferences-system-users
+
+---------------------
+32*32 pixels and over
+---------------------
+* Oxygen (modified): system-users, yast-users
+
+---------------------
+48*48 pixels and over
+---------------------
+* Oxygen (modified): preferences-desktop-user, preferences-system-users, system-users, yast-users
+
+--------------
+All icon sizes
+--------------
+* CPU - Icon Pack: preferences-devices-cpu
+* Crystal Clear: podcast-amarok, preferences-desktop-keyboard
+* Crystal Clear + Oxygen (combined icon elements): preferences-desktop-theme-applications
+* Crystal Project: financial-schedule, gtkconfig, kde-gtk-config, kded5, krunner, plasma-search, preferences-desktop, preferences-desktop-display, preferences-desktop-filter, preferences-desktop-default-applications, preferences-desktop-icons, preferences-desktop-notification, preferences-desktop-notification-bell, preferences-desktop-search, preferences-desktop-sound, preferences-desktop-navigation, preferences-desktop-theme-windowdecorations, preferences-gtk-config, preferences-security-firewall, preferences-system-linux, preferences-system-login, preferences-system-power-management, preferences-web-browser-cookies, yast-firewall, yast-support, yast-support-group
+* Crystal Project (modified): preferences-desktop-color, preferences-desktop-display-color, preferences-desktop-thunderbolt, preferences-system-windows
+* Crystal Project + NuoveXT 2 (combined icon elements): preferences-desktop-font
+* Crystal Project + Oxygen (combined icon elements): preferences-desktop-baloo, preferences-desktop-screensaver, preferences-desktop-theme-global, preferences-system-user-sudo, yast-sudo
+* Crystal Project + Oxygen + KDE Clipart (combined icon elements): preferences-kde-connect
+* FS Ubuntu Icons: preferences-system-bluetooth
+* Gnome: face-smile, preferences-desktop-emoticons, preferences-desktop-peripherals
+* Gnome + Oxygen (combined icon elements): preferences-system-network-server-share
+* Learning to fly: preferences-git
+* NuoveXT: device-notifier, drive-removable-media, preferences-devices-printer, preferences-devices-scanner
+* NuoveXT + Oxygen (combined icon elements): preferences-devices-drive-optical-check
+* NuoveXT 2: mediacontrol, preferences, preferences-desktop-default-applications, preferences-devices-printer, preferences-devices-scanner, preferences-system, preferences-system-network
+* Oxygen: kaccess, plasma, plasmagik, plasmashell, preferences-desktop-accessibility, preferences-desktop-activities, preferences-desktop-cursors, preferences-desktop-effects, preferences-desktop-gaming, preferences-desktop-mouse, preferences-desktop-plasma, preferences-desktop-plasma-theme, preferences-desktop-text-to-speech, preferences-desktop-theme
+* Oxygen (modified): amarok_change_language
+
+Note: the following icons were redrawn for greater clarity:
+- 16*16 pixel preferences-devices-printer
+
+STATUS
+
+------------------
+16*16-22*22 pixels
+------------------
+* Weather Icon Set: weather-clear-wind* (all), weather-clouds-wind* (all), weather-few-clouds-wind* (all), weather-many-clouds-wind* (all)
+
+---------------------
+32*32 pixels and over
+---------------------
+* Oxygen + Weather Icon Set (combined icon elements): weather-clear-wind* (all), weather-clouds-wind* (all), weather-few-clouds-wind* (all), weather-many-clouds-wind* (all)
+
+--------------
+All icon sizes
+--------------
+* Crystal Project: appointment-reminder
+* Crystal Project + Oxygen (combined icon elements): uninstall
+* Crystal Project + Gnome (combined icon elements): audio-off, audio-volume-muted, audio-ready, mic-off
+* Crystal Project + Gnome + Oxygen (combined icon elements): mic-sensitity-muted
+* Faenza: network-wired, network-wired-activated, nm-device-wired, weather-fog, weather-mist
+* Faenza + Oxygen (combined icon elements): network-wired-disconnected, nm-no-connection
+* FS Ubuntu Icons: network-bluetooth* (all)
+* Gnome: audio-on, mic-on
+* Gnome + Oxygen: audio-volume-high, audio-volume-low, audio-volume-medium, mic-ready, mic-sensitivity-low, mic-sensitivity-medium, mic-sensitivity-high
+* Learning to Fly (modified): network-vpn
+* NuoveXT + Oxygen: dialog-positive
+* NuoveXT 2 (modified): install
+* NuoveXT 2 + Oxygen: update-* (all)
+* Oxygen: battery-000, battery-000-charging, battery-empty, battery-empty-charging, battery-missing, network-wireless-0, network-wireless-connected-00, network-wireless-disconnected, network-wireless-signal-00, nm-nm-signal-00, redshift-status-day, security-high, security-medium, security-low, user-* (all), weather-clear, weather-clear-night, weather-clouds, weather-clouds-night, weather-few-clouds, weather-few-clouds-night, weather-freezing-rain, weather-hail, weather-many-clouds, weather-overcast, weather-showers, weather-showers-day, weather-showers-night, weather-showers-scattered* (all), weather-snow* (all), weather-storm* (all).
+* Oxygen (modified): appointment-recurring, battery-* (all with the exception of the five battery icons listed under 'Oxygen' above), dialog-error, dialog-information, dialog-question, dialog-warning
+* Oxygen + Oxylite: LGPL-2.0-or-later or CC-BY-SA-4.0 - network-flightmode-off
+* Oxylite: LGPL-2.0-or-later or CC-BY-SA-4.0 - network-flightmode-on; LGPL-3.0-or-later - network-wireless* (all, with the exception of the -0, -connected-00, -disconnected and -signal-none icons), nm-nm-signal* (all, with the exception of nm-nm-signal-00), redshift-status-off, redshift-status-on

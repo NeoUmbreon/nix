@@ -1,0 +1,22 @@
+{
+    "KPackageStructure": "KWin/Aurorae",
+    "KPlugin": {
+        "Authors": [
+            {
+                "Name": "OnkelzFreak1993"
+            }
+        ],
+        "Category": "Plasma 6 Window Decorations",
+        "ServiceTypes": [
+            "KWin/Aurorae"
+        ],
+        "EnabledByDefault": true,
+        "Name": "AeroSense",
+        "Description" : "AeroSense",
+        "Id": "AeroSense",
+        "Version": "1.0",
+        "License": "GPL-2.0+",
+        "X-KPackage-Dependencies": [
+        ]
+    }
+}
