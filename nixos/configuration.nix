@@ -63,7 +63,7 @@
   #  layout = "us";
   #  variant = "";
   #};
-  
+ 
   # Enable the KDE Plasma Desktop Environment.
   services.displayManager.sddm.enable = true;
   services.desktopManager.plasma6.enable = true;
@@ -111,7 +111,7 @@
       git
       wineWowPackages.full
       gcc
-      
+
       # Text editing
       neovim
       xed-editor
@@ -161,13 +161,10 @@
       # KDE Packages
       kdePackages.sddm-kcm # Configuration module for SDDM (Login screen)
       kdePackages.discover # For Flatpak or fwupd firmware update sevice
-      #kdePackages.kcalc # Calculator
       kdePackages.kcolorchooser # A small utility to select a color
+      #kdePackages.kcalc # Calculator
       #kdiff3 # Compares and merges 2 or 3 files or directories
       #kdePackages.kolourpaint # Easy-to-use paint program
-
-      # Graphics and Display
-      nwg-look
 
       # Office
       thunderbird
