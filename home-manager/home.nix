@@ -136,21 +136,58 @@
   };
   programs.plasma = {
     enable = true;
-    #overrideConfig = true;
+    overrideConfig = true;
     #immutableByDefault = true;
     workspace = {
+      clickItemTo = "select";
       wallpaper = /home/dawn/Desktop/Wallpapers/umbreon_background_by_luciana_vee_d7vi8sn.png;
+      tooltipDelay = "200";
+      enableMiddleClickPaste = "false";
+      colorScheme = "Sweet";
       theme = "Se7enAeroStyle";
       lookAndFeel = "org.kde.breezedark.desktop";
+      windowDecorations.theme = "__aurorae__svg__AeroSense";
       iconTheme = "Nova7";
       cursor.theme = "CatPaw";
+      cursor.size = "24";
     };
+    hotkeys.commands."launch-konsole" = {
+      name = "Launch Konsole";
+      key = "Meta+Return";
+      command = "konsole";
+    };
+
+    panels = [
+      # Windows-like panel at the bottom
+      {
+        screen = "all";
+        location = "bottom";
+        height = 44;
+        widgets = [
+          "org.kde.plasma.kickoff"
+          "org.kde.plasma.icontasks"
+          "org.kde.plasma.marginsseparator"
+          "org.kde.plasma.systemtray"
+          "org.kde.plasma.digitalclock"
+        ];
+      }
+      # Global menu at the top
+      #{
+      #  screen = "all";
+      #  location = "top";
+      #  height = 26;
+      #  widgets = [ 
+      #    "org.kde.plasma.appmenu"
+      #  ];
+      #}
+    ];
+
     shortcuts = {
-      "kwin"."Window Close" = ["Alt+F4" "Meta+Q,Alt+F4,Close Window"];
-      "kwin"."Window Maximize" = ["Meta+PgUp" "Meta+Up,Meta+PgUp,Maximize Window"];
-      "kwin"."Window Minimize" = ["Meta+PgDown" "Meta+Down,Meta+PgDown,Minimize Window"];
-      "plasmashell"."activate application launcher" = ["Meta" "Alt+F1,Meta" "Alt+F1,Activate Application Launcher"];
-      "services/org.kde.konsole.desktop"."_launch" = "Meta+Return";
+      kwin = {
+        "Window Close" = "Meta+Q";
+        "Window Maximize" = "Meta+Up";
+        "Window Minimize" = "Meta+Down";
+      };
     };
     configFile = {
       "dolphinrc"."General"."DoubleClickViewAction" = "none";
