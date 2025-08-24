@@ -18,6 +18,10 @@ git clone https://github.com/NeoUmbreon/nix flakes
 sudo cp /etc/nixos/hardware-configuration.nix ~/flakes/nixos/hardware-configuration.nix
 ```
 
+```
+cp -r ~/flakes/extra/theming/.* ~/
+```
+
 If in a virtual machine instead of a host:
 
 ```
