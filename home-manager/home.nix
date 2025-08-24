@@ -145,7 +145,7 @@
       enableMiddleClickPaste = false;
       #lookAndFeel = "org.kde.breezedark.desktop";
       colorScheme = "Sweet";
-      theme = "Se7enAeroStyle";
+      theme = "Sweet";
       windowDecorations.library = "org.kde.kwin.aurorae";
       windowDecorations.theme = "__aurorae__svg__AeroSense";
       iconTheme = "Windows 7 Aero";
@@ -163,7 +163,7 @@
       {
         screen = "all";
         location = "bottom";
-        height = 54;
+        height = 44;
         opacity = "translucent";
         alignment = "center";
         lengthMode = "fit";
