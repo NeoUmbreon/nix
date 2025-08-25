@@ -51,7 +51,7 @@ home-manager switch --flake ~/flakes/home-manager#dawn --extra-experimental-feat
 
 Now you can use:
 
-`nr` rebuilds main config with nyx
+`nrs` rebuilds main config with nh
 
 `hm` rebuilds home-manager config
 
