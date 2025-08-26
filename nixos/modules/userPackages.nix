@@ -23,6 +23,7 @@
         kdePackages.kate
         kdePackages.markdownpart
         marksman
+        nil
 
         # Development
         vscode
