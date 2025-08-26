@@ -22,12 +22,16 @@ sudo cp /etc/nixos/hardware-configuration.nix ~/flakes/nixos/hardware-configurat
 cp -r ~/flakes/extra/theming/.* ~/
 ```
 
-If in a virtual machine instead of a host:
+If in a virtual machine instead of a host, edit `~/flakes/nixos/configuration.nix`:
 
 ```
-cp ~/flakes/extra/alternateConfigs/virtual-machine/configuration.nix ~/flakes/nixos/configuration.nix 
+```
+  optionalServices.enable = false;
+  virtualMachineGuest.enable = true;
 ```
 
+
+```
 If you want LazyVim:
 
 ```
