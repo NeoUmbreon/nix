@@ -6,9 +6,6 @@
   };
 
   config = lib.mkIf config.optionalServices.enable {
-    # Partition Manager
-    programs.partition-manager.enable = true;
-
     # QEMU/KVM
     programs.virt-manager.enable = true;
 

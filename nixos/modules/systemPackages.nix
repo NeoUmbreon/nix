@@ -9,7 +9,10 @@
     # Install firefox.
     programs.firefox.enable = true;
 
-      # NH (better output for nixos-rebuild switch and other commands)
+    # Partition Manager
+    programs.partition-manager.enable = true;
+
+    # NH (better output for nixos-rebuild switch and other commands)
     programs.nh = {
       enable = true;
       clean.enable = true;

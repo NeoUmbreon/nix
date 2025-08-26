@@ -8,18 +8,20 @@
   [
     ./hardware-configuration.nix    # Include the results of the hardware scan.
 
-    ./modules/coreSystemSetup.nix   # Enables bootloader and other core system functionality
-    ./modules/nixSettings.nix       # Enables flakes, nix commands, unfree packages
-    ./modules/systemServices.nix    # Enables system services like sound and printing
-    ./modules/systemPackages.nix    # Enables firefox, nh, and base root packages
+    ./modules/coreSystemSetup.nix     # Enables bootloader and other core system functionality
+    ./modules/nixSettings.nix         # Enables flakes, nix commands, unfree packages
+    ./modules/systemServices.nix      # Enables system services like sound and printing
+    ./modules/systemPackages.nix      # Enables firefox, nh, partition manager, and base root packages
 
-    ./modules/kdePlasma.nix         # Enables KDE Plasma on Wayland/X11, and Flatpak
-    ./modules/userPackages.nix      # Enables all of the user packages
-    ./modules/gaming.nix            # Enables Steam, gamescope, OBS
-    ./modules/fonts.nix             # Enables custom font configuration
-    ./modules/optionalServices.nix  # Enables virtualisation and adb
-    ./modules/progCompat.nix        # Enables program compatibility tools: nix-ld and appimage
-    ./modules/udevRules.nix         # Enables udev rules for controllers and other usb devices
+    ./modules/optionalServices.nix    # Enables virtualisation and adb
+    ./modules/virtualMachineGuest.nix # Enables Guest Tools for NixOS Guest on QEMU/KVM
+
+    ./modules/kdePlasma.nix           # Enables KDE Plasma on Wayland/X11, and Flatpak
+    ./modules/userPackages.nix        # Enables all of the user packages
+    ./modules/gaming.nix              # Enables Steam, gamescope, OBS
+    ./modules/fonts.nix               # Enables custom font configuration
+    ./modules/progCompat.nix          # Enables program compatibility tools: nix-ld and appimage
+    ./modules/udevRules.nix           # Enables udev rules for controllers and other usb devices
   ];
 
 
@@ -29,12 +31,15 @@
   systemServices.enable = true;
   systemPackages.enable = true;
 
+  # VM
+  optionalServices.enable = true;
+  virtualMachineGuest.enable = false;
+
   # User
   kdePlasma.enable = true;
   userPackages.enable = true;
   gaming.enable = true;
   fonts.enable = true;
-  optionalServices.enable = true;
   progCompat.enable = true;
   udevRules.enable = true;
 
