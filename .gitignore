@@ -7,3 +7,12 @@ flake.nix.bak
 *.bak
 .git.bfg-report/
 *.kate-swp
+tt.*
+.tests
+doc/tags
+debug
+.repro
+foo.*
+*.log
+data
+

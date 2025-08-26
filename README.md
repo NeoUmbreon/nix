@@ -18,8 +18,10 @@ git clone https://github.com/NeoUmbreon/nix flakes
 sudo cp /etc/nixos/hardware-configuration.nix ~/flakes/nixos/hardware-configuration.nix
 ```
 
+Extras, theming and LazyVim:
 ```
 cp -r ~/flakes/extra/theming/.* ~/
+ln -s /home/dawn/flakes/extra/nvim /home/dawn/.config/nvim
 ```
 
 If in a virtual machine instead of a host, edit `~/flakes/nixos/configuration.nix`:
@@ -27,12 +29,6 @@ If in a virtual machine instead of a host, edit `~/flakes/nixos/configuration.ni
 ```
   optionalServices.enable = false;
   virtualMachineGuest.enable = true;
-```
-
-If you want LazyVim:
-
-```
-git clone https://github.com/LazyVim/starter ~/.config/nvim
 ```
 
 <br/>
