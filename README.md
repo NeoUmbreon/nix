@@ -25,13 +25,10 @@ cp -r ~/flakes/extra/theming/.* ~/
 If in a virtual machine instead of a host, edit `~/flakes/nixos/configuration.nix`:
 
 ```
-```
   optionalServices.enable = false;
   virtualMachineGuest.enable = true;
 ```
 
-
-```
 If you want LazyVim:
 
 ```
