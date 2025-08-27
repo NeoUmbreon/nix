@@ -1,6 +1,11 @@
 { config, pkgs, ... }:
 
 {
+  programs.direnv = {
+    enable = true;
+    enableBashIntegration = true;
+    nix-direnv.enable = true;
+  };
   programs.bash = {
     enable = true;
     shellAliases = {
@@ -21,12 +26,16 @@
     vbuild() {
       cd ~/flakes/pokeprismv-flake/ || return 1
 
-      nom develop --command bash -c '
-        echo "Entered nix shell temporarily. Building..."
-        nom build --impure || exit 1
-        cp result/pokeprism.gbc bgb/pokeprism.gbc || exit 1
-        echo "Build and copy completed!"
-      '
+      if [ ! -d ./pokeprismv ]; then
+        echo "ERROR: ./pokeprismv is missing."
+        return 1
+      fi
+
+      echo "Building pokeprism..."
+      make -C pokeprismv -j$(nproc) || return 1
+
+      cp pokeprismv/pokeprism.gbc bgb/pokeprism.gbc || return 1
+      echo "Build and copy completed!"
     }
     if [ -f ~/.bash_aliases ]; then
     . ~/.bash_aliases
@@ -48,6 +57,7 @@
 
     '';
     bashrcExtra = ''
+      eval "$(direnv hook bash)"
     '';
     sessionVariables = {
       HOME_MANAGER_FLAKE = "/home/dawn/flakes/home-manager#dawn";

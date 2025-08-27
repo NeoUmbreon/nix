@@ -7,6 +7,7 @@ flake.nix.bak
 *.bak
 .git.bfg-report/
 *.kate-swp
+
 tt.*
 .tests
 doc/tags
@@ -16,3 +17,4 @@ foo.*
 *.log
 data
 
+.direnv

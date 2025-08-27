@@ -28,6 +28,7 @@
         # Development
         vscode
         github-desktop
+        direnv
 
         # Social and Web
         discord
