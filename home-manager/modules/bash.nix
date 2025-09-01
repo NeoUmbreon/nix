@@ -10,7 +10,7 @@
     enable = true;
     shellAliases = {
       vim = "nvim";
-      sshp = "ssh -p 8253 neo@neoumbreon.com";
+      sshp = "ssh -p 8253 -i ~/Desktop/WinSCP/privkey.pem neo@neoumbreon.com";
       sudo = "sudo ";
       hm-old = "home-manager switch --flake ~/flakes/home-manager#dawn";
       nrs-old = "sudo nixos-rebuild switch --flake ~/flakes/nixos";

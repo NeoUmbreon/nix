@@ -29,11 +29,15 @@
         vscode
         github-desktop
         direnv
+        python311
+        texliveFull
+        texstudio
 
         # Social and Web
         discord
         google-chrome
         vesktop
+        telegram-desktop
 
         # Launchers and Emus
         prismlauncher

@@ -12,6 +12,9 @@
     # Partition Manager
     programs.partition-manager.enable = true;
 
+    # Tailscale
+    services.tailscale.enable = true;
+
     # NH (better output for nixos-rebuild switch and other commands)
     programs.nh = {
       enable = true;
