@@ -14,11 +14,12 @@
     ./modules/systemPackages.nix      # Enables firefox, nh, partition manager, and base root packages
 
     ./modules/optionalServices.nix    # Enables virtualisation and adb
+    ./modules/vfio.nix                # VFIO PCI Passthrough
     ./modules/virtualMachineGuest.nix # Enables Guest Tools for NixOS Guest on QEMU/KVM
 
     ./modules/kdePlasma.nix           # Enables KDE Plasma on Wayland/X11, and Flatpak
     ./modules/userPackages.nix        # Enables all of the user packages
-    ./modules/gaming.nix              # Enables Steam, gamescope, OBS
+    ./modules/gaming.nix              # Enables Steam, gamescope 
     ./modules/fonts.nix               # Enables custom font configuration
     ./modules/progCompat.nix          # Enables program compatibility tools: nix-ld and appimage
     ./modules/udevRules.nix           # Enables udev rules for controllers and other usb devices
@@ -33,6 +34,7 @@
 
   # VM
   optionalServices.enable = true;
+  vfio.enable = true;
   virtualMachineGuest.enable = false;
 
   # User

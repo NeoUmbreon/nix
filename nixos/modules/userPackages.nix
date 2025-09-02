@@ -29,9 +29,10 @@
         vscode
         github-desktop
         direnv
-        python311
         texliveFull
         texstudio
+        python312
+        python313Packages.python-lsp-server
 
         # Social and Web
         discord
