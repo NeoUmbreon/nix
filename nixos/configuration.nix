@@ -6,7 +6,7 @@
 {
   imports =
   [
-    ./hardware-configuration.nix    # Include the results of the hardware scan.
+    ./hardware-configuration.nix      # Include the results of the hardware scan.
 
     ./modules/coreSystemSetup.nix     # Enables bootloader and other core system functionality
     ./modules/nixSettings.nix         # Enables flakes, nix commands, unfree packages
@@ -19,7 +19,7 @@
 
     ./modules/kdePlasma.nix           # Enables KDE Plasma on Wayland/X11, and Flatpak
     ./modules/userPackages.nix        # Enables all of the user packages
-    ./modules/gaming.nix              # Enables Steam, gamescope 
+    ./modules/gaming.nix              # Enables Steam, gamescope
     ./modules/fonts.nix               # Enables custom font configuration
     ./modules/progCompat.nix          # Enables program compatibility tools: nix-ld and appimage
     ./modules/udevRules.nix           # Enables udev rules for controllers and other usb devices
