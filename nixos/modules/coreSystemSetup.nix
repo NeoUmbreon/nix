@@ -11,7 +11,9 @@
     boot.loader.efi.canTouchEfiVariables = true;
 
     # Use latest kernel.
-    boot.kernelPackages = pkgs.linuxPackages_latest;
+    #boot.kernelPackages = pkgs.linuxPackages_latest;
+    # Use LTS Kernel.
+    boot.kernelPackages = pkgs.linuxPackages_6_12;
 
     # Define Hostname
     networking.hostName = "nixos";

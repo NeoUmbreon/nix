@@ -26,16 +26,6 @@
     environment.systemPackages = with pkgs; [
       vim
       wget
-      
-      # All for emacs below
-      emacs
-      ripgrep
-      # optional dependencies
-      coreutils # basic GNU utilities
-      fd
-      clang
-      pandoc
-      shellcheck
     ];
   };
 }
