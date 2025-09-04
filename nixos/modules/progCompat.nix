@@ -23,6 +23,20 @@
       freetype
       harfbuzz
       fwupd
+      libGL
+      mesa
+      mesa_glu
+      libxkbcommon
+      xorg.libX11
+      xorg.libXcursor
+      xorg.libXext
+      xorg.libXrandr
+      xorg.libXrender
+      xorg.libXi
+      xorg.libXinerama
+      alsa-lib
+      libpulseaudio
+      SDL2
     ];
   };
 }

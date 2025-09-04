@@ -18,9 +18,9 @@
       nrs = "nh os switch /home/dawn/flakes/nixos";
       ncg = "nix-collect-garbage -d";
       nhc = "nh clean all --ask";
-
       hmedit = "nvim /home/dawn/flakes/home-manager/home.nix";
       nixedit = "nvim /home/dawn/flakes/nixos/configuration.nix";
+      ls = "eza --icons";
     };
     initExtra = ''
     vbuild() {
