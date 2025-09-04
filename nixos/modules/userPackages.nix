@@ -10,7 +10,7 @@
     users.users.dawn = {
       isNormalUser = true;
       description = "dawn";
-      extraGroups = [ "networkmanager" "wheel" "libvirtd" "adbusers" ];
+      extraGroups = [ "networkmanager" "wheel" "libvirtd" "adbusers" "plugdev" "dialout" ];
       packages = with pkgs; [
         # core system packages
         git
