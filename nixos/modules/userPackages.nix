@@ -28,6 +28,7 @@
         # Development
         vscode
         github-desktop
+        gh
         direnv
         texliveFull
         texstudio

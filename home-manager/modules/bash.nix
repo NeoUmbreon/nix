@@ -23,38 +23,72 @@
       ls = "eza --icons";
     };
     initExtra = ''
-    vbuild() {
-      cd ~/flakes/pokeprismv-flake/ || return 1
+      vbuild() {
+        cd ~/flakes/pokeprismv-flake/ || return 1
 
-      if [ ! -d ./pokeprismv ]; then
-        echo "ERROR: ./pokeprismv is missing."
-        return 1
+        if [ ! -d ./pokeprismv ]; then
+          echo "ERROR: ./pokeprismv is missing."
+          return 1
+        fi
+
+        echo "Building pokeprism..."
+        make -C pokeprismv -j$(nproc) || return 1
+
+        cp pokeprismv/pokeprism.gbc bgb/pokeprism.gbc || return 1
+        echo "Build and copy completed!"
+      }
+
+      if [ -f ~/.bash_aliases ]; then
+        . ~/.bash_aliases
       fi
 
-      echo "Building pokeprism..."
-      make -C pokeprismv -j$(nproc) || return 1
+      # Start ssh agent automatically
+      if [ -z "$SSH_AUTH_SOCK" ]; then
+        eval "$(ssh-agent -s)" > /dev/null 2>&1
+      fi
 
-      cp pokeprismv/pokeprism.gbc bgb/pokeprism.gbc || return 1
-      echo "Build and copy completed!"
-    }
-    if [ -f ~/.bash_aliases ]; then
-    . ~/.bash_aliases
-    fi
+      # Check if the keys are already added, and add them only if they aren't
+      if ! ssh-add -l | grep -q "dawn"; then
+        ssh-add ~/.ssh/id_rsa_dawn > /dev/null 2>&1
+      fi
 
-    # Start ssh agent automatically
-    if [ -z "$SSH_AUTH_SOCK" ]; then
-      eval "$(ssh-agent -s)" > /dev/null 2>&1
-    fi
+      if ! ssh-add -l | grep -q "neo"; then
+        ssh-add ~/.ssh/id_rsa_neo > /dev/null 2>&1
+      fi
 
-    # Check if the keys are already added, and add them only if they aren't
-    if ! ssh-add -l | grep -q "dawn"; then
-      ssh-add ~/.ssh/id_rsa_dawn > /dev/null 2>&1
-    fi
+      # Git Safety Wrappers
+      git() {
+        # Intercept git push -f and ask for confirmation
+        if [ "$1" = "push" ] && [[ "$@" == *"-f"* ]]; then
+          branch="$(command git rev-parse --abbrev-ref HEAD 2>/dev/null)"
+          echo "WARNING: You are about to force-push to branch: $branch"
+          read -p "Are you sure? [y/N] " confirm
+          if [[ "$confirm" =~ ^[Yy]$ ]]; then
+            command git "$@"
+          else
+            echo "Force push aborted."
+            return 1
+          fi
+        else
+          command git "$@"
+        fi
+      }
 
-    if ! ssh-add -l | grep -q "neo"; then
-      ssh-add ~/.ssh/id_rsa_neo > /dev/null 2>&1
-    fi
-
+      git-safe-reset() {
+        local branch="$1"
+        local commit="$2"
+        if [ -z "$branch" ] || [ -z "$commit" ]; then
+          echo "Usage: git-safe-reset <branch> <commit>"
+          return 1
+        fi
+        echo "You are about to hard reset $branch to $commit"
+        read -p "Continue? [y/N] " confirm
+        if [[ "$confirm" =~ ^[Yy]$ ]]; then
+          git checkout "$branch" && git reset --hard "$commit"
+        else
+          echo "Reset aborted."
+        fi
+      }
     '';
     bashrcExtra = ''
       eval "$(direnv hook bash)"
@@ -66,3 +100,4 @@
     historyFileSize = 2000000;
   };
 }
+
