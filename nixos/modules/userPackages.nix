@@ -10,7 +10,7 @@
     users.users.dawn = {
       isNormalUser = true;
       description = "dawn";
-      extraGroups = [ "networkmanager" "wheel" "libvirtd" "adbusers" "plugdev" "dialout" ];
+      extraGroups = [ "networkmanager" "wheel" "libvirtd" "adbusers" "plugdev" "dialout" "kvm" ];
       packages = with pkgs; [
         # core system packages
         git
@@ -89,6 +89,9 @@
         hardinfo2 # System information and benchmarks for Linux systems
         wayland-utils # A utility for displaying information about the Wayland protocols supported by a Wayland compositor.
         kdePackages.ksystemlog # KDE SystemLog Application
+
+        # Looking Glass
+        looking-glass-client
       ];
     };
   };

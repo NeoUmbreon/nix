@@ -18,10 +18,11 @@ git clone https://github.com/NeoUmbreon/nix flakes
 sudo cp /etc/nixos/hardware-configuration.nix ~/flakes/nixos/hardware-configuration.nix
 ```
 
-Extras, theming and LazyVim:
+Extras- theming, LazyVim, and obs (flatpak) plugins:
 ```
 cp -r ~/flakes/extra/theming/.* ~/
 ln -s /home/dawn/flakes/extra/nvim /home/dawn/.config/nvim
+ln -s ~/flakes/extra/plugins/ ~/.var/app/com.obsproject.Studio/config/obs-studio/
 ```
 
 If in a virtual machine instead of a host, edit `~/flakes/nixos/configuration.nix`:

@@ -16,6 +16,7 @@
     ./modules/optionalServices.nix    # Enables virtualisation and adb
     ./modules/vfio.nix                # VFIO PCI Passthrough
     ./modules/virtualMachineGuest.nix # Enables Guest Tools for NixOS Guest on QEMU/KVM
+    ./modules/lookingGlass.nix        # Enables configuration for Looking Glass
 
     ./modules/kdePlasma.nix           # Enables KDE Plasma on Wayland/X11, and Flatpak
     ./modules/userPackages.nix        # Enables all of the user packages
@@ -36,6 +37,7 @@
   optionalServices.enable = true;
   vfio.enable = true;
   virtualMachineGuest.enable = false;
+  lookingGlass.enable = true;
 
   # User
   kdePlasma.enable = true;

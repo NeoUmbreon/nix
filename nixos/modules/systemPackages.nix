@@ -27,6 +27,9 @@
     environment.systemPackages = with pkgs; [
       vim
       wget
+
+      # Looking Glass
+      linuxHeaders
     ];
   };
 }

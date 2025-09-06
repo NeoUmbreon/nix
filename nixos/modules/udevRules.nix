@@ -33,6 +33,9 @@
       # Legacy or internal prototypes
       SUBSYSTEM=="usb", ATTR{idVendor}=="1d50", ATTR{idProduct}=="6018", MODE="0666"
       SUBSYSTEM=="usb", ATTR{idVendor}=="1209", ATTR{idProduct}=="db42", MODE="0666"
+
+      # Looking-Glass
+      SUBSYSTEM=="kvmfr", OWNER="dawn", GROUP="kvm", MODE="0660"
     '';
   };
 }

@@ -17,7 +17,7 @@
       # If you want to use JACK applications, uncomment this
       #jack.enable = true;
 
-      #wireplumber.enable = true;
+      wireplumber.enable = true;
     };
 
     # Enable CUPS to print documents.
