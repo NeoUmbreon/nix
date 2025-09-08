@@ -20,6 +20,7 @@
     ./modules/bash.nix
     ./modules/starship.nix
     ./modules/plasma.nix
+    ./modules/emacs.nix
   ];
 
   # The home.packages option allows you to install Nix packages into your
