@@ -93,12 +93,17 @@
         # Looking Glass
         looking-glass-client
 
-		# Emacs
-		cmake
-		libtool
-		libvterm
-		gnumake
-		nixd
+        # Emacs
+        cmake
+        libtool
+        libvterm
+        gnumake
+        nixd
+        fd
+        ripgrep
+        nixfmt-classic
+        shellcheck
+        multimarkdown
       ];
     };
   };

@@ -20,6 +20,7 @@
       nhc = "nh clean all --ask";
       hmedit = "nvim /home/dawn/flakes/home-manager/home.nix";
       nixedit = "nvim /home/dawn/flakes/nixos/configuration.nix";
+      x = "exit";
       ls = "eza --icons --group";
     };
     initExtra = ''
