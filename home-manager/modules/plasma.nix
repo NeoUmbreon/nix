@@ -28,6 +28,14 @@
       recordRegion = null;
       recordScreen = null;
     };
+    powerdevil.AC = {
+      autoSuspend.action = "sleep";
+      autoSuspend.idleTimeout = 7200;
+      powerButtonAction = "shutDown";
+      dimDisplay.enable = true;
+      dimDisplay.idleTimeout = 600;
+      turnOffDisplay.idleTimeout = 3600;
+    };
     krunner = {
       shortcuts.launch = "Meta+R";
       position = "center";
