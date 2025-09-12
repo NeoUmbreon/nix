@@ -1,6 +1,9 @@
 pokeprismv-flake/bgb
 pokeprismv-flake/pokeprismv
 pokeprismv-flake/result
+pokeprismv-old2022-flake/bgb
+pokeprismv-old2022-flake/pokeprismv
+pokeprismv-old2022-flake/result
 polished-map-flake/result
 xx3dsfml/result
 flake.nix.bak
