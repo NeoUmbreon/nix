@@ -71,6 +71,7 @@
         bat # Better cat output
         wl-clipboard # Command-line copy/paste utilities for Wayland
         eza
+        yt-dlp
 
         # KDE Packages
         kdePackages.sddm-kcm # Configuration module for SDDM (Login screen)
