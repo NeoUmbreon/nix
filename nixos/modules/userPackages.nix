@@ -62,6 +62,8 @@
         qbittorrent
         #qalculate-qt
         mate.mate-calc
+        anydesk
+        scrcpy
 
         # CLI Utilities
         fastfetch
@@ -72,6 +74,7 @@
         wl-clipboard # Command-line copy/paste utilities for Wayland
         eza
         yt-dlp
+        pandoc
 
         # KDE Packages
         kdePackages.sddm-kcm # Configuration module for SDDM (Login screen)

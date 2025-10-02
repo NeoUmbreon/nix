@@ -22,6 +22,8 @@
       nixedit = "nvim /home/dawn/flakes/nixos/configuration.nix";
       x = "exit";
       ls = "eza --icons --group";
+      time1 = "bash ~/scripts/changeTimeZone.sh newyork";
+      time2 = "bash ~/scripts/changeTimeZone.sh london";
     };
     initExtra = ''
       vbuild() {
