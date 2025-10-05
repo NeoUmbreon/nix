@@ -48,10 +48,14 @@
         # Nix-ld
         mono
         nix-ld
+        lua
+        lua5_3_compat
+        lua5_4_compat
 
         # Gaming
         protonplus
         joystickwake
+        r2modman
 
         # Media and Audio
         pwvucontrol

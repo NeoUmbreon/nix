@@ -45,6 +45,13 @@
       xorg.libXi.out
       xorg.libXfixes.out
       SDL2
+      lua
+      lua5_4
+      lua5_3
+      lua5_3_compat
+      lua5_4_compat
+
+
 
       # audio
       openal
