@@ -37,6 +37,21 @@
       alsa-lib
       libpulseaudio
       SDL2
+
+      # Bizhawk
+      gtk2.out
+      gdk-pixbuf.out
+      pango.out
+      xorg.libXi.out
+      xorg.libXfixes.out
+      SDL2
+
+      # audio
+      openal
+      pulseaudio
+      pipewire
+      alsa-lib
+      libsndfile
     ];
   };
 }

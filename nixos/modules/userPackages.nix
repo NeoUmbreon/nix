@@ -45,6 +45,10 @@
         prismlauncher
         dolphin-emu
 
+        # Nix-ld
+        mono
+        nix-ld
+
         # Gaming
         protonplus
         joystickwake
