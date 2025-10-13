@@ -21,6 +21,7 @@
     ./modules/kdePlasma.nix           # Enables KDE Plasma on Wayland/X11, and Flatpak
     ./modules/userPackages.nix        # Enables all of the user packages
     ./modules/gaming.nix              # Enables Steam, gamescope
+    ./modules/recording.nix           # Enables OBS with plugins
     ./modules/fonts.nix               # Enables custom font configuration
     ./modules/progCompat.nix          # Enables program compatibility tools: nix-ld and appimage
     ./modules/udevRules.nix           # Enables udev rules for controllers and other usb devices
@@ -43,6 +44,7 @@
   kdePlasma.enable = true;
   userPackages.enable = true;
   gaming.enable = true;
+  recording.enable = true;
   fonts.enable = true;
   progCompat.enable = true;
   udevRules.enable = true;

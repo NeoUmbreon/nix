@@ -2,7 +2,7 @@
 {
   options = {
     gaming.enable =
-      lib.mkEnableOption "Enables Steam, gamescope, OBS";
+      lib.mkEnableOption "Enables Steam, gamescope";
   };
 
   config = lib.mkIf config.gaming.enable {
