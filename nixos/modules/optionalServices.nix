@@ -2,7 +2,7 @@
 {
   options = {
     optionalServices.enable =
-      lib.mkEnableOption "Enables virtualisation and adb";
+      lib.mkEnableOption "Enables virtualisation, flatpak, adb, and keyd";
   };
 
   config = lib.mkIf config.optionalServices.enable {
@@ -14,6 +14,9 @@
     virtualisation.libvirtd.enable = true;
 
     virtualisation.spiceUSBRedirection.enable = true;
+
+    # Enable flatpak
+    services.flatpak.enable = true;
 
     # Android
     programs.adb.enable = true;

@@ -13,12 +13,13 @@
     ./modules/systemServices.nix      # Enables system services like sound and printing
     ./modules/systemPackages.nix      # Enables firefox, nh, partition manager, and base root packages
 
-    ./modules/optionalServices.nix    # Enables virtualisation and adb
+    ./modules/optionalServices.nix    # Enables virtualisation, flatpak, adb, and keyd
     ./modules/vfio.nix                # VFIO PCI Passthrough
     ./modules/virtualMachineGuest.nix # Enables Guest Tools for NixOS Guest on QEMU/KVM
     ./modules/lookingGlass.nix        # Enables configuration for Looking Glass
 
-    ./modules/kdePlasma.nix           # Enables KDE Plasma on Wayland/X11, and Flatpak
+    ./modules/kdePlasma.nix           # Enables KDE Plasma on Wayland and SDDM
+    ./modules/cinnamon.nix            # Enables Cinnamon Desktop on X11
     ./modules/userPackages.nix        # Enables all of the user packages
     ./modules/gaming.nix              # Enables Steam, gamescope
     ./modules/recording.nix           # Enables OBS with plugins
@@ -42,6 +43,7 @@
 
   # User
   kdePlasma.enable = true;
+  cinnamon.enable = true;
   userPackages.enable = true;
   gaming.enable = true;
   recording.enable = true;
