@@ -28,6 +28,7 @@
         obs-livesplit-one
         #obs-3d-effect
         #waveform
+        looking-glass-obs
       ];
     };
   };

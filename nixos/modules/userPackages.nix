@@ -72,6 +72,8 @@
         mate.mate-calc
         anydesk
         scrcpy
+        alarm-clock-applet
+        rpi-imager
 
         # CLI Utilities
         fastfetch
@@ -83,6 +85,7 @@
         eza
         yt-dlp
         pandoc
+        xdotool
 
         # KDE Packages
         kdePackages.sddm-kcm # Configuration module for SDDM (Login screen)
