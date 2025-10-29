@@ -12,6 +12,12 @@
       nerd-fonts.fira-code
       nerd-fonts.hack
       nerd-fonts.symbols-only
+
+      noto-fonts
+      noto-fonts-cjk-sans
+      noto-fonts-cjk-serif
+      kochi-substitute
+      ipaexfont
     ];
   };
 }

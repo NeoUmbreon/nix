@@ -28,6 +28,10 @@
     ./modules/udevRules.nix           # Enables udev rules for controllers and other usb devices
   ];
 
+  # TEMPORARY:
+  nixpkgs.config.permittedInsecurePackages = [
+    "mbedtls-2.28.10"
+  ];
 
   # Base
   coreSystemSetup.enable = true;

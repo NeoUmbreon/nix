@@ -119,6 +119,13 @@
         nixfmt-classic
         shellcheck
         multimarkdown
+
+        # Cinnamon
+        gpaste
+        coreutils-prefixed
+
+        # Wine
+        winetricks
       ];
     };
   };

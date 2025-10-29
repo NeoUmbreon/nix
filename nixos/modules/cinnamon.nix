@@ -42,8 +42,8 @@
     };
 
     hardware.graphics = {
-      enable = true;          # enables Mesa, OpenGL, Vulkan stack
-      enable32Bit = true;     # optional — needed for Steam/Wine
+      enable = true;
+      enable32Bit = true;
       extraPackages = with pkgs; [
         mesa
         vulkan-loader

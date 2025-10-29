@@ -15,6 +15,7 @@
     programs.nix-ld.libraries = with pkgs; [
       # Add any missing dynamic libraries for unpackaged programs
       # here, NOT in environment.systemPackages
+      # General / system libraries
       fuse
       icu
       icu.dev
@@ -26,7 +27,10 @@
       libGL
       mesa
       mesa_glu
+      libgbm
       libxkbcommon
+
+      # X11 core libraries
       xorg.libX11
       xorg.libXcursor
       xorg.libXext
@@ -34,31 +38,62 @@
       xorg.libXrender
       xorg.libXi
       xorg.libXinerama
+      xorg.libXfixes
+      xorg.libXfixes.out
+      xorg.libXcomposite
+      xorg.libXdamage
+      xorg.libXScrnSaver
+      xorg.libXtst
+      xorg.libXxf86vm
+      xorg.libxcb
+
+      # Audio
       alsa-lib
       libpulseaudio
       SDL2
+      pulseaudio
+      pipewire
+      openal
+      libsndfile
 
-      # Bizhawk
+      # Bizhawk / Lua
       gtk2.out
       gdk-pixbuf.out
       pango.out
       xorg.libXi.out
-      xorg.libXfixes.out
       SDL2
       lua
-      lua5_4
       lua5_3
+      lua5_4
       lua5_3_compat
       lua5_4_compat
 
+      # GTK3 stack
+      gtk3
+      gdk-pixbuf
+      pango
+      atk
+      cairo
+      glib
+      adwaita-icon-theme
+      fontconfig
+      expat
 
+      # Torch / compute
+      zstd
+      zstd.out
+      zstd.dev
+      ncurses
+      numactl
+      libdrm
+      rocmPackages.rocm-runtime
+      llvmPackages.openmp
 
-      # audio
-      openal
-      pulseaudio
-      pipewire
-      alsa-lib
-      libsndfile
-    ];
+      # NSS / DBus / printing
+      nss
+      nspr
+      dbus
+      cups
+      ];
   };
 }
