@@ -6,8 +6,6 @@
   };
 
   config = lib.mkIf config.cinnamon.enable {
-    # Enable the X11 windowing system.
-    # You can disable this if you're only using the Wayland session.
     services.xserver = {
       enable = true;
       videoDrivers = [ "amdgpu" ];
@@ -27,7 +25,7 @@
         Option "TearFree" "true"
       '';
     };
-    # Enable touchpad support (enabled default in most desktopManager).
+    # TODO: find out if necessary
     services.libinput.enable = true;
 
     # Enable cinnamon apps
@@ -41,6 +39,7 @@
       XCURSOR_SIZE = "24";
     };
 
+    # TODO: find out if necessary
     hardware.graphics = {
       enable = true;
       enable32Bit = true;
